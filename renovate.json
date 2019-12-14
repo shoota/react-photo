@@ -1,0 +1,12 @@
+{
+  "timezone": "Japan",
+  "extends": [
+    "config:base",
+    "monorepo:react",
+    "monorepo:storybook",
+    "monorepo:babel6",
+    "schedule:daily"
+  ],
+  "automerge": true,
+  "labels": ["dependency"]
+}
