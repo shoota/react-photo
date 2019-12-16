@@ -7,33 +7,31 @@ language: node_js
 node_js: lts/*
 env:
   global:
-  - secure: NOEB9sQFF/yUHb62CYHShk+OEOv/4DbRay2RzWWd3SvxayP9sGQXdC5G2DI4acyTcXSdCykYEiuHh+M0sH/jdW8qZA8rMAReTXCHSC+RTBSPkA2gSPzw/fT+4HjLyTPwPNt2g5P1nKt4k9w2xaUrMCFWbE+ED7Mk9+Y4iasv9J/nFE2p0iccLRcee0tmvPB3vZDe/zkzK7IlQQxTt9K1VHsujRNueukAahlBCayx73PXJzKjom7lZ996tWlfFsfIQlP9Ab0PuI2aaPUIYULloB6YZ2/LvnA5uxuqdKUWA9odNUIAqBonlYq4DHoiRDOXCLMwFSL8UCSfLHhM/Hy3X0kZqV90HQb7E+JDMtw9eJYiOSIdPUDRUJtbgJaCwtGuUgxLdcfyUnVmqXmVGK0lOq04tv5+Q+ZZSYs+yp8hUOTMtZlJIeJ6zjaw/3gGT/pu9LSerw7jrqBqzUKYNCo8SZijSTqzMMq3wM2SS74X7k62gw0Wekrsv9TWfu9LdMzc9pPagFJBoK0XBsxkwBax7Ybw2887B4OY/xxtglxqi5lHl3VpMJwZN4p6gNpV1q8ryPBeoHG5KbAsr7LKxy5nyNZupph3E9A4FZesXObNef6oYCYcmBYc1q8DbqJUUr2BCVl2etG8c6MMbGqW/rFCa9XTQbXyMk3J+7iuAvsHeNk=
+  - secure: GdZ5v0iDY+U48KMewcP1V3O+HkORzKGWj4w5Ol/wRyjf/W6GgfdhcYqzBB1lUPpc2bnftmAe4OHmUchMpNo43jkytL3B/OCQ23OQ9hEqm3Jo4ghAe7rucBNMjT/2+Wlbjsx8t0n+bFkFr+/FcbHlzD7WsHqIGZW4r46oiONQ5uzbSR9LMkzJW6igfNHONsx/Aog6E9Yx68zJI6sS1D9Je4JtOWm/SBy2esfuqYkneXRN2t7TKoB0upFhC1bExO8bJaRHWi3h4HbNb4Me0Oz92zs1pAtAcFxKptgXlAbzedeVskaNmN9TiVV8pHv8J/X85n56y2xptCCGImM6GZWATY3zlpkSVrnA645CMgJDDUlzi9KMvt/7AaLKFKvUrVz1Ady/fvKyyhAYBOh106JlcMRZLICy/U4ZvVy/oBFZtEiYDuwtge/2NR83VOkDN+NFws2QI6tjI6Zd5i15Mmdt1WIEK+LsXcVn3ngu/4dNu/hW3FKWSRD7X4U6skC4Vn9IXjtn7gFzRhnYVNiECN09+0BbLcn1rKqop5UsAFC2RmJsOVV4KosUYlfHkGPpJSRZsokk2D4lCZ7mqU8qDG+wKRF6Y/0zs7hmRWZLM0uTfWoAtYzwex/Bj5qFZhoWJuse5ZTnY3HnRVQf0HBzwcp7tJ04V0DSl5aahw04iVoI0HI=
 stages:
 - test
 - name: deploy
 jobs:
   include:
   - stage: Test
-    name: "lint"
+    name: lint
     script:
     - yarn lint
-  -
-    script:
+  - script:
     - yarn test
-    name: "test"
-  -
-    script:
+    name: test
+  - script:
     - yarn build-storybook
-    name: "build storybook"
+    name: build storybook
   - stage: deploy
-    name: "deploy to gh-page"
+    name: deploy to gh-page
     env: gh-page
     script:
     - yarn build
     deploy:
       provider: pages
       skip-cleanup: true
-      github-token: $GITHUB_TOKEN
+      github-token: "$GITHUB_TOKEN"
       keep-history: true
       local-dir: public
       on:
