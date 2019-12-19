@@ -1,19 +1,16 @@
-# react-playground
-よりうまい肉を食うぞ
+# react-photo
 
-## Purpose
+My Photo Blog with React
 
-もっとうまい肉を食べれるようになる。
 
-## Scope
+### site
 
-- React
-- Typescript
-- less syntax
-- Style(CSS) design
+http://photo.anaguma.org
 
-## What I need?
+### storybook
 
-- きれいとはなにかを考える
-- できてるものより、できないものを考える
-- 悩ましい部分に自分ルールを持つ
+https://shoota.github.io/react-photo/
+
+## LICENSE
+Codes are under MIT. MIT Full license text is available in LICENSE
+All of image files are `Unlicense`.
