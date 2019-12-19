@@ -71,6 +71,10 @@ const config: ConfigurationFactory = (_env, { mode }) => {
           test: /\.html$/,
           loader: 'html-loader',
         },
+        {
+          test: /\.(woff|woff2|eot|ttf|svg)$/,
+          loader: 'file-loader',
+        },
       ],
     },
     optimization: {
