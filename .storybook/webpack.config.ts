@@ -1,4 +1,5 @@
-import darkTheme from '@ant-design/dark-theme'
+import path from 'path'
+
 const config = {
   module: {
     rules: [
@@ -20,14 +21,22 @@ const config = {
           {
             loader: 'less-loader',
              // https://github.com/ant-design/ant-design/issues/7927
-            options: { modifyVars: darkTheme, javascriptEnabled: true }
+            options: { javascriptEnabled: true }
           }
         ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: 'file-loader'
       }
     ]
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    modules: [
+      './node_modules',
+      path.resolve(__dirname, '..', 'src')
+    ]
   }
 }
 

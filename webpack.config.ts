@@ -1,6 +1,5 @@
 import path from 'path'
 
-import darkTheme from '@ant-design/dark-theme'
 import webpack, { ConfigurationFactory } from 'webpack'
 import { Configuration as DevServerConfiguration } from 'webpack-dev-server'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
@@ -64,13 +63,17 @@ const config: ConfigurationFactory = (_env, { mode }) => {
             {
               loader: 'less-loader',
               // https://github.com/ant-design/ant-design/issues/7927
-              options: { modifyVars: darkTheme, javascriptEnabled: true },
+              options: { javascriptEnabled: true },
             },
           ],
         },
         {
           test: /\.html$/,
           loader: 'html-loader',
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|svg)$/,
+          loader: 'file-loader',
         },
       ],
     },

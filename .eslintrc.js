@@ -44,7 +44,6 @@ module.exports = {
     'import/extensions': ['error', 'never'],
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 0,
-    'import/no-default-export': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
