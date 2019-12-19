@@ -14,10 +14,19 @@ const StyledContent = styled(Content)`
 
 type Props = ComponentProps<typeof Header>
 
-export const Layout: React.FC<Props> = ({ children, title, onTitleClick }) => {
+export const Layout: React.FC<Props> = ({
+  children,
+  title,
+  onTitleClick,
+  onMenuClick,
+}) => {
   return (
     <AntLayout>
-      <Header title={title} onTitleClick={onTitleClick} />
+      <Header
+        title={title}
+        onTitleClick={onTitleClick}
+        onMenuClick={onMenuClick}
+      />
       <StyledContent>{children}</StyledContent>
     </AntLayout>
   )
