@@ -10,6 +10,8 @@ const Example = () => {
       title="さんぷる"
       date="2000-01-01"
       src="./assets/works/inorganicStructure/01.jpg"
+      hasNext
+      hasPrev
     />
   )
 }
