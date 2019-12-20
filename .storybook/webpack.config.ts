@@ -1,6 +1,11 @@
 import path from 'path'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
+
 
 const config = {
+  plugins: [
+    new CopyWebpackPlugin([{from: './assets', to: './assets'}])
+  ],
   module: {
     rules: [
       {

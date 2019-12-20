@@ -8,7 +8,9 @@ import { Header } from 'components/organisms/Header'
 
 const { Content } = AntLayout
 
-const StyledContent = styled(Content)`
+const FlexContainer = styled(Content)`
+  display: flex;
+  justify-content: center;
   padding: 24px;
 `
 
@@ -27,7 +29,7 @@ export const Layout: React.FC<Props> = ({
         onTitleClick={onTitleClick}
         onMenuClick={onMenuClick}
       />
-      <StyledContent>{children}</StyledContent>
+      <FlexContainer>{children}</FlexContainer>
     </AntLayout>
   )
 }
