@@ -1,19 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Card } from 'antd'
-import styled from 'styled-components'
 
-const Wrapper = styled.div`
-  margin: 40px;
-`
+import { Day } from 'components/pages/Day'
 
 const Example = () => {
   return (
-    <Wrapper>
-      <Card title="hello react">
-        <h1>webpack Example</h1>
-      </Card>
-    </Wrapper>
+    <Day
+      title="example"
+      date="2000-01-01"
+      src="./assets/works/inorganicStructure/01.jpg"
+    />
   )
 }
 

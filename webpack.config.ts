@@ -5,6 +5,7 @@ import { Configuration as DevServerConfiguration } from 'webpack-dev-server'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
 
 const config: ConfigurationFactory = (_env, { mode }) => {
   const plugins = [
@@ -17,6 +18,7 @@ const config: ConfigurationFactory = (_env, { mode }) => {
     }),
     new HtmlWebpackPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
+    new CopyWebpackPlugin([{ from: './assets', to: './assets' }]),
   ]
   const devServer: DevServerConfiguration = {
     publicPath: '/',
@@ -100,7 +102,7 @@ const config: ConfigurationFactory = (_env, { mode }) => {
         'react-dom': '@hot-loader/react-dom',
       },
       extensions: ['.tsx', '.ts', '.js', '.jsx'],
-      modules: ['./node_modules', path.resolve(__dirname)],
+      modules: ['./node_modules', path.resolve(__dirname, '.', 'src')],
     },
   }
 }
