@@ -5,12 +5,14 @@ import { Layout } from '.'
 
 export default { title: 'template/Layout' }
 
-export const withDefault = () => (
+export const StoryLayout: React.FC<{}> = ({ children }) => (
   <Layout
     title="日々是好日"
     onTitleClick={() => actions('onTitleClick')}
     onMenuClick={_clickParam => actions('onMenuClick')}
   >
-    ここが描画部分です
+    {children}
   </Layout>
 )
+
+export const withDefault = () => <StoryLayout>ここが描画部分です</StoryLayout>
