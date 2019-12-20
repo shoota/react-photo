@@ -25,6 +25,7 @@ export const Routes = () => (
     >
       <Switch>
         <Route component={Example} path="/" exact />
+        <Route component={Example} path="/test" exact />
       </Switch>
     </Layout>
   </BrowserRouter>
