@@ -1,4 +1,6 @@
 import React from 'react'
+import { action } from '@storybook/addon-actions'
+import { boolean } from '@storybook/addon-knobs'
 
 import { StoryLayout } from '../../templates/Layout/index.stories'
 
@@ -12,6 +14,10 @@ export const withDefault = () => (
       title="写真を表示します"
       date="YYYY-MM-DD"
       src="./assets/works/inorganicStructure/01.jpg"
+      hasPrev={boolean('hasPrev', true)}
+      hasNext={boolean('hasNext', true)}
+      onNextClick={action('onNextClick')}
+      onPrevClick={action('onPrevClick')}
     />
   </StoryLayout>
 )
@@ -22,6 +28,10 @@ export const withPortrait = () => (
       title="写真を表示します"
       date="YYYY-MM-DD"
       src="./assets/works/photonicMusica/08.jpg"
+      hasPrev={boolean('hasPrev', true)}
+      hasNext={boolean('hasNext', true)}
+      onNextClick={action('onNextClick')}
+      onPrevClick={action('onPrevClick')}
     />
   </StoryLayout>
 )
