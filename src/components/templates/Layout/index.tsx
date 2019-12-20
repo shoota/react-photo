@@ -23,7 +23,7 @@ export const Layout: React.FC<Props> = ({
   onMenuClick,
 }) => {
   return (
-    <AntLayout>
+    <AntLayout style={{ height: '100vh' }}>
       <Header
         title={title}
         onTitleClick={onTitleClick}

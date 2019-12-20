@@ -9,6 +9,7 @@ type Props = {
 }
 
 const PhotoCard = styled(Card)`
+  margin: auto;
   .ant-card-meta-description {
     text-align: right;
   }
