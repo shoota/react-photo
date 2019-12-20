@@ -10,7 +10,7 @@ const { Content } = AntLayout
 const FlexContainer = styled(Content)`
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding-top: 48px;
 `
 
 type Props = ComponentProps<typeof Header> & ComponentProps<typeof Footer>
