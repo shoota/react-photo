@@ -1,5 +1,5 @@
 import React from 'react'
-import { actions } from '@storybook/addon-actions'
+import { action } from '@storybook/addon-actions'
 
 import { Layout } from '.'
 
@@ -8,8 +8,9 @@ export default { title: 'template/Layout' }
 export const StoryLayout: React.FC<{}> = ({ children }) => (
   <Layout
     title="日々是好日"
-    onTitleClick={() => actions('onTitleClick')}
-    onMenuClick={_clickParam => actions('onMenuClick')}
+    onTitleClick={() => action('onTitleClick')}
+    onMenuClick={clickParam => action('onMenuClick')(clickParam)}
+    onTwitterClick={action('onTwitterClick')}
   >
     {children}
   </Layout>
