@@ -8,7 +8,10 @@ export default { title: 'template/Layout' }
 export const StoryLayout: React.FC<{}> = ({ children }) => (
   <Layout
     title="日々是好日"
-    onTitleClick={() => action('onTitleClick')}
+    onTitleClick={event => {
+      event.preventDefault()
+      action('onTitleClick')(event)
+    }}
     onMenuClick={clickParam => action('onMenuClick')(clickParam)}
     onTwitterClick={action('onTwitterClick')}
   >
