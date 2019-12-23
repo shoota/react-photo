@@ -9,7 +9,7 @@ const Example: React.FC<{ title: string }> = ({ title }) => {
     <Day
       title={title}
       date="2000-01-01"
-      src="./assets/works/inorganicStructure/01.jpg"
+      src="assets/works/inorganicStructure/01.jpg"
       hasNext
       hasPrev
     />
