@@ -7,6 +7,8 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 
+import siteConfig from './src/data/site.json'
+
 const config: ConfigurationFactory = (_env, { mode }) => {
   const plugins = [
     new webpack.HotModuleReplacementPlugin(),
@@ -16,7 +18,15 @@ const config: ConfigurationFactory = (_env, { mode }) => {
       chunkFilename: '[id].css',
       ignoreOrder: false,
     }),
-    new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/index.ejs',
+      templateParameters: { title: siteConfig.blogTitle },
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+      },
+    }),
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin([{ from: './assets', to: './assets' }]),
   ]
