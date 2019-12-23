@@ -2,12 +2,12 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Day } from 'components/pages/Day'
-import { Layout } from 'components/templates/Layout'
+import { LayoutContainer } from 'containers/Layout'
 
-const Example = () => {
+const Example: React.FC<{ title: string }> = ({ title }) => {
   return (
     <Day
-      title="さんぷる"
+      title={title}
       date="2000-01-01"
       src="./assets/works/inorganicStructure/01.jpg"
       hasNext
@@ -18,15 +18,21 @@ const Example = () => {
 
 export const Routes = () => (
   <BrowserRouter>
-    <Layout
-      title="日々是好日"
-      onMenuClick={() => undefined}
-      onTitleClick={() => undefined}
-    >
+    <LayoutContainer>
       <Switch>
-        <Route component={Example} path="/" exact />
-        <Route component={Example} path="/test" exact />
+        <Route component={() => <Example title="root" />} path="/" exact />
+        <Route component={() => <Example title="days" />} path="/days" exact />
+        <Route
+          component={() => <Example title="works" />}
+          path="/works"
+          exact
+        />
+        <Route
+          component={() => <Example title="about" />}
+          path="/about"
+          exact
+        />
       </Switch>
-    </Layout>
+    </LayoutContainer>
   </BrowserRouter>
 )

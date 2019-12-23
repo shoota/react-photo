@@ -13,6 +13,9 @@ const StyledHeader = styled(AntHeader)`
 const HeaderTitle = styled.h1`
   padding: 0;
   margin: 0;
+  a {
+    color: currentColor;
+  }
 `
 
 const StyledMenu = styled(Menu)`
@@ -23,7 +26,7 @@ const StyledMenu = styled(Menu)`
 
 type Props = {
   title: string
-  onTitleClick: () => void
+  onTitleClick: (event: React.MouseEvent<HTMLAnchorElement>) => void
   onMenuClick: ComponentProps<typeof Menu>['onClick']
 }
 
@@ -34,15 +37,19 @@ export const Header: React.FC<Props> = ({
 }) => {
   return (
     <StyledHeader>
-      <HeaderTitle onClick={onTitleClick}>{title}</HeaderTitle>
+      <HeaderTitle>
+        <a href="/" onClick={onTitleClick}>
+          {title}
+        </a>
+      </HeaderTitle>
       <StyledMenu
         mode="horizontal"
-        defaultSelectedKeys={['1']}
+        defaultSelectedKeys={['days']}
         onClick={onMenuClick}
       >
-        <Menu.Item key="1">日々</Menu.Item>
-        <Menu.Item key="2">写真</Menu.Item>
-        <Menu.Item key="3">私について</Menu.Item>
+        <Menu.Item key="days">日々</Menu.Item>
+        <Menu.Item key="works">写真</Menu.Item>
+        <Menu.Item key="about">私について</Menu.Item>
       </StyledMenu>
     </StyledHeader>
   )
