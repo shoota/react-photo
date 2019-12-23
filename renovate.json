@@ -1,5 +1,5 @@
 {
-  "timezone": "Japan",
+  "timezone": "Asia/Tokyo",
   "extends": [
     "config:base",
     "monorepo:react",
@@ -7,6 +7,22 @@
     "monorepo:babel6",
     "schedule:daily"
   ],
-  "automerge": true,
+  "packageRules": [
+    {
+      "updateTypes": ["patch"],
+      "automerge": true
+    },
+    {
+      "packagePatterns": ["*"]
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "groupName": "devDependencies"
+    }
+  ],
   "labels": ["dependency"]
 }
