@@ -1,17 +1,18 @@
 {
-  "name": "react-playground",
+  "name": "react-photo",
   "version": "1.0.0",
-  "description": "よりうまい肉を食うぞ",
+  "description": "my photo blog with react",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "build-storybook": "build-storybook",
-    "test": "tsc -p ./tsconfig.json",
+    "generate:days": "ts-node src/data/daysGenerator.ts",
     "precommit": "lint-staged",
     "postbuild": "cp ./meta/* public/",
     "lint": "eslint 'src/**/*.ts{,x}' --cache",
     "start": "webpack-dev-server",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "test": "tsc -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",

@@ -3,13 +3,14 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Day } from 'components/pages/Day'
 import { LayoutContainer } from 'containers/Layout'
+import { DaysContainer } from 'containers/Days'
 
 const Example: React.FC<{ title: string }> = ({ title }) => {
   return (
     <Day
       title={title}
       date="2000-01-01"
-      src="./assets/works/inorganicStructure/01.jpg"
+      src="assets/works/inorganicStructure/01.jpg"
       hasNext
       hasPrev
     />
@@ -21,7 +22,7 @@ export const Routes = () => (
     <LayoutContainer>
       <Switch>
         <Route component={() => <Example title="root" />} path="/" exact />
-        <Route component={() => <Example title="days" />} path="/days" exact />
+        <Route component={DaysContainer} path="/days" exact />
         <Route
           component={() => <Example title="works" />}
           path="/works"

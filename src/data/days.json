@@ -1,0 +1,44 @@
+[
+  {
+    "date": "20081107",
+    "src": "assets/days/20081107.JPG",
+    "title": "",
+    "hasPrev": false,
+    "hasNext": true
+  },
+  {
+    "date": "20080916",
+    "src": "assets/days/20080916.jpg",
+    "title": "",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20080723",
+    "src": "assets/days/20080723.jpg",
+    "title": "",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20071201",
+    "src": "assets/days/20071201.jpg",
+    "title": "",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20070809",
+    "src": "assets/days/20070809.jpg",
+    "title": "",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20070725",
+    "src": "assets/days/20070725.jpg",
+    "title": "",
+    "hasPrev": true,
+    "hasNext": false
+  }
+]

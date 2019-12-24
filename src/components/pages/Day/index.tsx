@@ -2,12 +2,14 @@ import React from 'react'
 import { Col, Card, Button, Row } from 'antd'
 import styled from 'styled-components'
 
-type Props = {
+export type DaysPhotoProps = {
   date: string
   src: string
   title?: string
   hasPrev: boolean
   hasNext: boolean
+}
+type Props = DaysPhotoProps & {
   onPrevClick?: () => void
   onNextClick?: () => void
 }
