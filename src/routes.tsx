@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Day } from 'components/pages/Day'
 import { LayoutContainer } from 'containers/Layout'
+import { DaysContainer } from 'containers/Days'
 
 const Example: React.FC<{ title: string }> = ({ title }) => {
   return (
@@ -21,7 +22,7 @@ export const Routes = () => (
     <LayoutContainer>
       <Switch>
         <Route component={() => <Example title="root" />} path="/" exact />
-        <Route component={() => <Example title="days" />} path="/days" exact />
+        <Route component={DaysContainer} path="/days" exact />
         <Route
           component={() => <Example title="works" />}
           path="/works"
