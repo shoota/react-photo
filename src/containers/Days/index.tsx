@@ -1,4 +1,5 @@
 import React from 'react'
+import dayjs from 'dayjs'
 
 import { useDays } from './hooks/useDays'
 
@@ -17,7 +18,7 @@ export const DaysContainer: React.FC = () => {
 
   return (
     <Day
-      date={date}
+      date={dayjs(date).format('YYYY MM/DD')}
       src={src}
       title={title}
       hasPrev={hasPrev}
