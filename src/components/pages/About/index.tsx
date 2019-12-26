@@ -44,7 +44,7 @@ export const About: React.FC<Props> = ({
 }) => {
   return (
     <AboutCard>
-      <Row type="flex" justify="space-around" align="top">
+      <Row type="flex" justify="space-around" align="bottom">
         <Col>
           <Avatar size={128} src={avatarUrl} />
           <Name>{name}</Name>
