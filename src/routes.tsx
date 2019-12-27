@@ -22,7 +22,7 @@ export const Routes = () => (
   <BrowserRouter>
     <LayoutContainer>
       <Switch>
-        <Route component={() => <Example title="root" />} path="/" exact />
+        <Route component={DaysContainer} path="/" exact />
         <Route component={DaysContainer} path="/days" exact />
         <Route
           component={() => <Example title="works" />}
