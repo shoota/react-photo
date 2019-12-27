@@ -1,9 +1,13 @@
 import React from 'react'
 import { lorem } from 'faker'
+import { boolean } from '@storybook/addon-knobs'
+import { action } from '@storybook/addon-actions'
 
 import { StoryLayout } from '../../templates/Layout/index.stories'
 
 import { Works } from '.'
+
+import { anchorHandler } from 'containers/utils/anchorClickHandler'
 
 export default { title: 'pages/Works' }
 
@@ -11,14 +15,21 @@ const datasource: any[] = []
 for (let i = 0; i < 23; i += 1) {
   datasource.push({
     title: lorem.word(),
-    thumbnail:
-      'https://gist.github.com/shoota/9319742/raw/3d1a799e759fb548262cdf5484cc1a914e56e7bd/avt.jpg',
     content: lorem.sentences(),
+    files: ['./assets/works/inorganicStructure/01.jpg'],
+    // files: ['./assets/works/photonicMusica/08.jpg'],
   })
 }
 
 export const withDefault = () => (
   <StoryLayout>
-    <Works datasource={datasource} />
+    <Works
+      currentImageKey={0}
+      datasource={datasource}
+      visibleWork={datasource[0]}
+      onImageClick={anchorHandler(() => action('onImageClick')())}
+      onListClick={anchorHandler(() => action('onListClick')())}
+      visible={boolean('visible', false)}
+    />
   </StoryLayout>
 )
