@@ -8,7 +8,7 @@ const StyledCard = styled(Card)`
   margin: auto;
 `
 
-type WorkData = {
+export type WorkData = {
   title: string
   content: string
   files: string[]
