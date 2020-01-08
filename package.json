@@ -17,7 +17,6 @@
     "build": "webpack --mode=production",
     "postbuild": "cp ./meta/* public/",
     "build-storybook": "build-storybook",
-    "precommit": "lint-staged",
     "generate:days": "ts-node src/data/daysGenerator.ts",
     "lint": "eslint 'src/**/*.ts{,x}' --cache",
     "start": "webpack-dev-server",
@@ -119,6 +118,11 @@
       "node"
     ],
     "testURL": "http://localhost"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
