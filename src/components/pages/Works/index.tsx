@@ -9,6 +9,7 @@ const StyledCard = styled(Card)`
 `
 
 export type WorkData = {
+  key: string
   title: string
   content: string
   files: string[]
@@ -48,9 +49,9 @@ export const Works: React.FC<Props> = ({
         itemLayout="vertical"
         size="large"
         dataSource={datasource}
-        renderItem={({ title, files, content }) => (
+        renderItem={({ key, title, files, content }) => (
           <List.Item
-            key={title}
+            key={key}
             extra={
               <a href="/" onClick={onListClick}>
                 <img width={220} alt="logo" src={files[0]} />
@@ -60,7 +61,7 @@ export const Works: React.FC<Props> = ({
             <List.Item.Meta
               title={
                 <a href="/" onClick={onListClick}>
-                  title
+                  {title}
                 </a>
               }
             />

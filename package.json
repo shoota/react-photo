@@ -18,6 +18,7 @@
     "postbuild": "cp ./meta/* public/",
     "build-storybook": "build-storybook",
     "generate:days": "ts-node src/data/daysGenerator.ts",
+    "generate:works": "ts-node src/data/worksGenerator.ts",
     "lint": "eslint 'src/**/*.ts{,x}' --cache",
     "start": "webpack-dev-server",
     "storybook": "start-storybook -p 6006",

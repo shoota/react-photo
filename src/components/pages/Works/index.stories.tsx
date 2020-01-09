@@ -14,6 +14,7 @@ export default { title: 'pages/Works' }
 const datasource: WorkData[] = []
 for (let i = 0; i < 23; i += 1) {
   datasource.push({
+    key: lorem.word(),
     title: lorem.word(),
     content: lorem.sentences(),
     files:
