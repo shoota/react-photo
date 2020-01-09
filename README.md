@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shoota/react-photo.svg?branch=master)](https://travis-ci.org/shoota/react-photo)
+
 # react-photo
 
 My Photo Blog with React
