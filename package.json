@@ -1,29 +1,38 @@
 {
   "name": "react-photo",
-  "version": "1.0.0",
   "description": "my photo blog with react",
+  "license": "MIT",
+  "author": "",
+  "homepage": "https://github.com/shoota/react-playground#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoota/react-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoota/react-playground/issues"
+  },
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
+    "postbuild": "cp ./meta/* public/",
     "build-storybook": "build-storybook",
     "generate:days": "ts-node src/data/daysGenerator.ts",
-    "precommit": "lint-staged",
-    "postbuild": "cp ./meta/* public/",
     "lint": "eslint 'src/**/*.ts{,x}' --cache",
     "start": "webpack-dev-server",
     "storybook": "start-storybook -p 6006",
     "test": "tsc -p ./tsconfig.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shoota/react-playground.git"
+  "dependencies": {
+    "antd": "3.26.6",
+    "dayjs": "1.8.19",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-hot-loader": "4.12.18",
+    "react-router": "5.1.2",
+    "react-router-dom": "5.1.2",
+    "styled-components": "4.4.1"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shoota/react-playground/issues"
-  },
-  "homepage": "https://github.com/shoota/react-playground#readme",
   "devDependencies": {
     "@babel/core": "7.7.7",
     "@babel/plugin-proposal-class-properties": "7.7.4",
@@ -92,30 +101,6 @@
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "3.10.1"
   },
-  "dependencies": {
-    "antd": "3.26.6",
-    "dayjs": "1.8.19",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-hot-loader": "4.12.18",
-    "react-router": "5.1.2",
-    "react-router-dom": "5.1.2",
-    "styled-components": "4.4.1"
-  },
-  "resolutions": {
-    "@types/react": "16.9.17",
-    "@types/react-dom": "16.9.4"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
-  },
   "jest": {
     "collectCoverage": true,
     "transform": {
@@ -133,5 +118,24 @@
       "node"
     ],
     "testURL": "http://localhost"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "resolutions": {
+    "@types/react": "16.9.17",
+    "@types/react-dom": "16.9.4"
   }
 }
