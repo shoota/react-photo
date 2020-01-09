@@ -13,7 +13,7 @@ export const withDefault = () => (
     <Day
       title="写真を表示します"
       date="YYYY-MM-DD"
-      src="./assets/works/inorganicStructure/01.jpg"
+      src="./assets/works/05_inorganicStructure/01.jpg"
       hasPrev={boolean('hasPrev', true)}
       hasNext={boolean('hasNext', true)}
       onNextClick={action('onNextClick')}
@@ -27,7 +27,7 @@ export const withPortrait = () => (
     <Day
       title="写真を表示します"
       date="YYYY-MM-DD"
-      src="./assets/works/photonicMusica/08.jpg"
+      src="./assets/works/02_photonicMusica/08.jpg"
       hasPrev={boolean('hasPrev', true)}
       hasNext={boolean('hasNext', true)}
       onNextClick={action('onNextClick')}

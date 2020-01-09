@@ -19,8 +19,8 @@ for (let i = 0; i < 23; i += 1) {
     content: lorem.sentences(),
     files:
       i % 3 !== 0
-        ? ['./assets/works/inorganicStructure/01.jpg']
-        : ['./assets/works/photonicMusica/08.jpg'],
+        ? ['./assets/works/05_inorganicStructure/01.jpg']
+        : ['./assets/works/02_photonicMusica/08.jpg'],
   })
 }
 
@@ -30,6 +30,7 @@ export const withDefault = () => (
       currentImageKey={0}
       datasource={datasource}
       visibleWork={datasource[0]}
+      onCancel={action('onCancel')}
       onImageClick={anchorHandler(() => action('onImageClick')())}
       onListClick={() => anchorHandler(() => action('onListClick')())}
       visible={boolean('visible', false)}
