@@ -1,9 +1,16 @@
 [
   {
+    "date": "20090622",
+    "src": "assets/days/20090622.JPG",
+    "title": "二人暮らし最初のおでかけ",
+    "hasPrev": false,
+    "hasNext": true
+  },
+  {
     "date": "20081107",
     "src": "assets/days/20081107.JPG",
     "title": "柳葉魚",
-    "hasPrev": false,
+    "hasPrev": true,
     "hasNext": true
   },
   {
@@ -17,6 +24,20 @@
     "date": "20080723",
     "src": "assets/days/20080723.jpg",
     "title": "高い、青い、それだけで気持ちいい",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20071214",
+    "src": "assets/days/20071214.JPG",
+    "title": "矢印を撮影する癖がある",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20071202",
+    "src": "assets/days/20071202.jpg",
+    "title": "このあと忙しくて枯らしてしまったのだけれど",
     "hasPrev": true,
     "hasNext": true
   },
@@ -38,6 +59,20 @@
     "date": "20070725",
     "src": "assets/days/20070725.jpg",
     "title": "お断りします",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20070711",
+    "src": "assets/days/20070711.jpg",
+    "title": "シャッターを切ってたまたま撮れて気に入ったやつ",
+    "hasPrev": true,
+    "hasNext": true
+  },
+  {
+    "date": "20070605",
+    "src": "assets/days/20070605.JPG",
+    "title": "誰も気にとめないものを撮りたい",
     "hasPrev": true,
     "hasNext": false
   }
