@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { ComponentProps } from 'react'
 import { List, Card, Modal } from 'antd'
 import styled from 'styled-components'
 
 const StyledCard = styled(Card)`
   width: 60vw;
   max-width: 720px;
-  margin: auto;
 `
 
 export type WorkData = {
@@ -19,6 +18,7 @@ type Props = {
   currentImageKey: number
   // FIXME should not load all work data. it should fetch dinamitically
   datasource: WorkData[]
+  onCancel: ComponentProps<typeof Modal>['onCancel']
   onListClick: (key: string) => (e: React.MouseEvent<HTMLAnchorElement>) => void
   onImageClick: (e: React.MouseEvent<HTMLAnchorElement>) => void
   visibleWork: WorkData
@@ -29,15 +29,21 @@ const Photo = styled.div`
   text-align: center;
   margin-bottom: 24px;
   img {
-    border: solid 2px #202020;
+    border: solid 1px #202020;
     border-radius: 3px;
+    max-width: 720px;
     cursor: pointer;
   }
+`
+
+const ExtraImg = styled.img`
+  border: solid 1px #202020;
 `
 
 export const Works: React.FC<Props> = ({
   currentImageKey,
   datasource,
+  onCancel,
   onImageClick,
   onListClick,
   visibleWork,
@@ -54,7 +60,7 @@ export const Works: React.FC<Props> = ({
             key={key}
             extra={
               <a href="/" onClick={onListClick(key)}>
-                <img width={220} alt="logo" src={files[0]} />
+                <ExtraImg width={180} alt="logo" src={files[0]} />
               </a>
             }
           >
@@ -70,9 +76,10 @@ export const Works: React.FC<Props> = ({
         )}
       />
       <Modal
-        width={720}
+        width={800}
         title={visibleWork.title}
         visible={visible}
+        onCancel={onCancel}
         footer={null}
       >
         <Photo>

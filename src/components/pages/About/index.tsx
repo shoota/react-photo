@@ -7,7 +7,6 @@ const { Title, Paragraph } = Typography
 const AboutCard = styled(Card)`
   width: 60vw;
   max-width: 720px;
-  margin: auto;
   font-family: 'M PLUS Rounded 1c', -apple-system, BlinkMacSystemFont,
     'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
     'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
