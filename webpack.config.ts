@@ -39,7 +39,6 @@ const config: ConfigurationFactory = (_env, { mode }) => {
     headers: {
       'Access-Control-Allow-Origin': '*',
     },
-
     historyApiFallback: {
       rewrites: [{ from: /^\/*/, to: '/index.html' }],
     },
