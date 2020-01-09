@@ -1,0 +1,83 @@
+[
+  {
+    "key": "01_virgin",
+    "title": "Virgin",
+    "content": "写真を始めたころに撮ったものたち。撮るだけで楽しくてたまらなくてどこでも撮っていた。ネガフィルムをスキャンしてレタッチしています。",
+    "files": [
+      "assets/works/01_virgin/01.jpg",
+      "assets/works/01_virgin/02.jpg",
+      "assets/works/01_virgin/03.jpg",
+      "assets/works/01_virgin/04.jpg",
+      "assets/works/01_virgin/05.jpg",
+      "assets/works/01_virgin/06.jpg",
+      "assets/works/01_virgin/07.jpg",
+      "assets/works/01_virgin/08.jpg",
+      "assets/works/01_virgin/09.jpg"
+    ]
+  },
+  {
+    "key": "02_photonicMusica",
+    "title": "photonic musica",
+    "content": "",
+    "files": [
+      "assets/works/02_photonicMusica/01.jpg",
+      "assets/works/02_photonicMusica/02.jpg",
+      "assets/works/02_photonicMusica/03.jpg",
+      "assets/works/02_photonicMusica/04.jpg",
+      "assets/works/02_photonicMusica/05.jpg",
+      "assets/works/02_photonicMusica/06.jpg",
+      "assets/works/02_photonicMusica/07.jpg",
+      "assets/works/02_photonicMusica/08.jpg",
+      "assets/works/02_photonicMusica/09.jpg",
+      "assets/works/02_photonicMusica/10.jpg",
+      "assets/works/02_photonicMusica/11.jpg",
+      "assets/works/02_photonicMusica/12.jpg"
+    ]
+  },
+  {
+    "key": "03_onnanokotenVol1",
+    "title": "おんなのこ展 Vol.1",
+    "content": "",
+    "files": [
+      "assets/works/03_onnanokotenVol1/1.jpg",
+      "assets/works/03_onnanokotenVol1/2.jpg",
+      "assets/works/03_onnanokotenVol1/3.jpg",
+      "assets/works/03_onnanokotenVol1/4.jpg",
+      "assets/works/03_onnanokotenVol1/5.jpg",
+      "assets/works/03_onnanokotenVol1/6.jpg",
+      "assets/works/03_onnanokotenVol1/7.jpg",
+      "assets/works/03_onnanokotenVol1/8.jpg",
+      "assets/works/03_onnanokotenVol1/9.jpg",
+      "assets/works/03_onnanokotenVol1/10.jpg",
+      "assets/works/03_onnanokotenVol1/11.jpg"
+    ]
+  },
+  {
+    "key": "04_minority",
+    "title": "Minority",
+    "content": "",
+    "files": [
+      "assets/works/04_minority/01.jpg",
+      "assets/works/04_minority/02.jpg",
+      "assets/works/04_minority/03.jpg",
+      "assets/works/04_minority/04.jpg",
+      "assets/works/04_minority/05.jpg",
+      "assets/works/04_minority/06.jpg",
+      "assets/works/04_minority/07.jpg",
+      "assets/works/04_minority/08.jpg"
+    ]
+  },
+  {
+    "key": "05_inorganicStructure",
+    "title": "Inorganic structure",
+    "content": "",
+    "files": [
+      "assets/works/05_inorganicStructure/01.jpg",
+      "assets/works/05_inorganicStructure/02.jpg",
+      "assets/works/05_inorganicStructure/03.jpg",
+      "assets/works/05_inorganicStructure/04.jpg",
+      "assets/works/05_inorganicStructure/05.jpg",
+      "assets/works/05_inorganicStructure/06.jpg"
+    ]
+  }
+]
