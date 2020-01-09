@@ -13,12 +13,15 @@ const getEntry = (key: string) => {
 
 const getWorkData = (dir: string) => {
   const worksPath = `${imageDir}/${dir}`
-  const files: string[] = fs.readdirSync(worksPath).sort((a, b) => {
-    return (
-      Number.parseInt(a.split('.')[0], 10) -
-      Number.parseInt(b.split('.')[0], 10)
-    )
-  })
+  const files: string[] = fs
+    .readdirSync(worksPath)
+    .sort((a, b) => {
+      return (
+        Number.parseInt(a.split('.')[0], 10) -
+        Number.parseInt(b.split('.')[0], 10)
+      )
+    })
+    .map(fileName => `assets/works/${dir}/${fileName}`)
   return (
     getEntry(dir) || {
       key: dir,

@@ -31,7 +31,7 @@ export const withDefault = () => (
       datasource={datasource}
       visibleWork={datasource[0]}
       onImageClick={anchorHandler(() => action('onImageClick')())}
-      onListClick={anchorHandler(() => action('onListClick')())}
+      onListClick={() => anchorHandler(() => action('onListClick')())}
       visible={boolean('visible', false)}
     />
   </StoryLayout>

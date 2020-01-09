@@ -19,7 +19,7 @@ type Props = {
   currentImageKey: number
   // FIXME should not load all work data. it should fetch dinamitically
   datasource: WorkData[]
-  onListClick: (e: React.MouseEvent<HTMLAnchorElement>) => void
+  onListClick: (key: string) => (e: React.MouseEvent<HTMLAnchorElement>) => void
   onImageClick: (e: React.MouseEvent<HTMLAnchorElement>) => void
   visibleWork: WorkData
   visible: boolean
@@ -53,14 +53,14 @@ export const Works: React.FC<Props> = ({
           <List.Item
             key={key}
             extra={
-              <a href="/" onClick={onListClick}>
+              <a href="/" onClick={onListClick(key)}>
                 <img width={220} alt="logo" src={files[0]} />
               </a>
             }
           >
             <List.Item.Meta
               title={
-                <a href="/" onClick={onListClick}>
+                <a href="/" onClick={onListClick(key)}>
                   {title}
                 </a>
               }
