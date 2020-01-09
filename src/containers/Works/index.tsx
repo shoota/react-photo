@@ -8,6 +8,7 @@ export const WorksContainer: React.FC = () => {
   const {
     currentImageKey,
     datasource,
+    onCancel,
     onListClick,
     onImageClick,
     visibleWork,
@@ -18,6 +19,7 @@ export const WorksContainer: React.FC = () => {
     <Works
       currentImageKey={currentImageKey}
       datasource={datasource}
+      onCancel={onCancel}
       onListClick={onListClick}
       onImageClick={onImageClick}
       visibleWork={visibleWork}

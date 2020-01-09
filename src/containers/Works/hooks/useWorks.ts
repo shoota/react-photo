@@ -9,12 +9,16 @@ export const useWorks = (): ComponentProps<typeof Works> => {
   const [visibleWork, setVisibleWork] = useState(datasource[0])
   const [visible, setVisible] = useState(false)
 
+  const onCancel = useCallback(() => setVisible(false), [])
+
   const onListClick = useCallback(
     (searchKey: string) =>
       anchorHandler(() => {
         const hit = datasource.find(({ key }) => key === searchKey)
         if (hit !== undefined) {
+          setCurrentImageKey(0)
           setVisibleWork(hit)
+          setVisible(true)
         }
       }),
     []
@@ -22,7 +26,7 @@ export const useWorks = (): ComponentProps<typeof Works> => {
 
   const onImageClick = useCallback(
     anchorHandler(() => {
-      if (currentImageKey < visibleWork.files.length) {
+      if (currentImageKey < visibleWork.files.length - 1) {
         return setCurrentImageKey(currentImageKey + 1)
       }
       return setVisible(false)
@@ -33,6 +37,7 @@ export const useWorks = (): ComponentProps<typeof Works> => {
   return {
     currentImageKey,
     datasource,
+    onCancel,
     onListClick,
     onImageClick,
     visibleWork,
