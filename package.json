@@ -25,10 +25,10 @@
     "test": "tsc -p ./tsconfig.json"
   },
   "dependencies": {
-    "antd": "3.26.11",
-    "dayjs": "1.8.20",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "antd": "3.26.12",
+    "dayjs": "1.8.21",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
     "react-hot-loader": "4.12.19",
     "react-router": "5.1.2",
     "react-router-dom": "5.1.2",
