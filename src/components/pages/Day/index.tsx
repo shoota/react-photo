@@ -67,7 +67,7 @@ export const Day: React.FC<Props> = ({
         </Photo>
         <Meta title={title} description={date} />
       </PhotoCard>
-      <ButtonRow type="flex" justify="space-around">
+      <ButtonRow justify="space-around">
         <Col>
           <Button
             key="past"
