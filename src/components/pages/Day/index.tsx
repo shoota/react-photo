@@ -1,5 +1,6 @@
 import React from 'react'
-import { Col, Card, Button, Row } from 'antd'
+import Img from 'react-image'
+import { Col, Card, Button, Row, Spin } from 'antd'
 import styled from 'styled-components'
 
 export type DaysPhotoProps = {
@@ -32,6 +33,14 @@ const ButtonRow = styled(Row)`
   margin-top: 48px;
 `
 
+const SpinWrapper = styled.div`
+  width: 800px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
 const { Meta } = Card
 
 export const Day: React.FC<Props> = ({
@@ -47,7 +56,14 @@ export const Day: React.FC<Props> = ({
     <Row>
       <PhotoCard>
         <Photo>
-          <img alt={title} src={src} />
+          <Img
+            src={src}
+            loader={
+              <SpinWrapper>
+                <Spin size="large" tip="Loading..." />
+              </SpinWrapper>
+            }
+          />
         </Photo>
         <Meta title={title} description={date} />
       </PhotoCard>
