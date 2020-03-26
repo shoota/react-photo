@@ -1,5 +1,5 @@
 import React, { ComponentProps } from 'react'
-import { Layout as AntLayout } from 'antd'
+import { Layout as AntLayout, Card } from 'antd'
 import styled from 'styled-components'
 
 import { Header } from 'components/organisms/Header'
@@ -7,10 +7,17 @@ import { Footer } from 'components/organisms/Footer'
 
 const { Content } = AntLayout
 
-const FlexContainer = styled(Content)`
-  display: flex;
-  justify-content: center;
+const ContentContainer = styled(Content)`
+  width: 80%;
+  margin: auto;
   padding-top: 48px;
+  * {
+    margin: auto;
+  }
+`
+
+const TransparentCard = styled(Card)`
+  background-color: inherit;
 `
 
 type Props = ComponentProps<typeof Header> & ComponentProps<typeof Footer>
@@ -29,7 +36,9 @@ export const Layout: React.FC<Props> = ({
         onTitleClick={onTitleClick}
         onMenuClick={onMenuClick}
       />
-      <FlexContainer>{children}</FlexContainer>
+      <ContentContainer>
+        <TransparentCard>{children}</TransparentCard>
+      </ContentContainer>
       <Footer onTwitterClick={onTwitterClick} />
     </AntLayout>
   )
