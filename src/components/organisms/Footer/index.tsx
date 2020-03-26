@@ -1,6 +1,7 @@
 import React from 'react'
 import { Layout, Button } from 'antd'
 import styled from 'styled-components'
+import { TwitterOutlined } from '@ant-design/icons'
 
 const { Footer: AntFooter } = Layout
 
@@ -16,7 +17,12 @@ type Props = {
 export const Footer: React.FC<Props> = ({ onTwitterClick }) => (
   <StyledFooter>
     {onTwitterClick && (
-      <Button ghost type="primary" icon="twitter" onClick={onTwitterClick} />
+      <Button
+        ghost
+        type="primary"
+        icon={<TwitterOutlined />}
+        onClick={onTwitterClick}
+      />
     )}
   </StyledFooter>
 )
