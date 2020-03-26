@@ -17,7 +17,7 @@ type Props = DaysPhotoProps & {
 }
 
 const PhotoCard = styled(Card)`
-  width: 800px;
+  width: 850px;
   .ant-card-meta-description {
     text-align: right;
   }
@@ -64,6 +64,7 @@ export const Day: React.FC<Props> = ({
         <Photo>
           <Img
             src={src}
+            style={{ maxWidth: '800px' }}
             loader={
               <SpinWrapper>
                 <Spin size="large" tip="Loading..." />
