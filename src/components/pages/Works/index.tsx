@@ -1,6 +1,7 @@
 import React, { ComponentProps } from 'react'
-import { List, Card, Modal } from 'antd'
+import { List, Card, Modal, Spin } from 'antd'
 import styled from 'styled-components'
+import Img from 'react-image'
 
 const StyledCard = styled(Card)`
   width: 60vw;
@@ -34,6 +35,14 @@ const Photo = styled.div`
     max-width: 720px;
     cursor: pointer;
   }
+`
+
+const SpinWrapper = styled.div`
+  width: 720px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const ExtraImg = styled.img`
@@ -84,9 +93,14 @@ export const Works: React.FC<Props> = ({
       >
         <Photo>
           <a href="/" onClick={onImageClick}>
-            <img
+            <Img
               alt={visibleWork.title}
               src={visibleWork.files[currentImageKey]}
+              loader={
+                <SpinWrapper>
+                  <Spin size="large" tip="Loading..." />
+                </SpinWrapper>
+              }
             />
           </a>
         </Photo>
