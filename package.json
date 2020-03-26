@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "@ant-design/icons": "4.0.3",
-    "antd": "4.0.3",
+    "antd": "4.0.4",
     "dayjs": "1.8.23",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-hot-loader": "4.12.20",
     "react-image": "2.4.0",
     "react-router": "5.1.2",
