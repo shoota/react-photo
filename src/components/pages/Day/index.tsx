@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from 'react-image'
-import { Col, Card, Button, Row, Spin } from 'antd'
+import { Card, Button, Spin } from 'antd'
+import { DoubleLeftOutlined, DoubleRightOutlined } from '@ant-design/icons'
 import styled from 'styled-components'
 
 export type DaysPhotoProps = {
@@ -16,6 +17,7 @@ type Props = DaysPhotoProps & {
 }
 
 const PhotoCard = styled(Card)`
+  width: 800px;
   .ant-card-meta-description {
     text-align: right;
   }
@@ -29,8 +31,12 @@ const Photo = styled.div`
   }
 `
 
-const ButtonRow = styled(Row)`
-  margin-top: 48px;
+const ButtonWrap = styled.div`
+  display: flex;
+  justify-content: space-around;
+  && {
+    margin: 32px 48px 0;
+  }
 `
 
 const SpinWrapper = styled.div`
@@ -53,7 +59,7 @@ export const Day: React.FC<Props> = ({
   onNextClick,
 }) => {
   return (
-    <Row>
+    <>
       <PhotoCard>
         <Photo>
           <Img
@@ -67,26 +73,22 @@ export const Day: React.FC<Props> = ({
         </Photo>
         <Meta title={title} description={date} />
       </PhotoCard>
-      <ButtonRow justify="space-around">
-        <Col>
-          <Button
-            key="past"
-            type="primary"
-            icon="double-left"
-            disabled={!hasPrev}
-            onClick={onPrevClick}
-          />
-        </Col>
-        <Col>
-          <Button
-            key="future"
-            type="primary"
-            icon="double-right"
-            disabled={!hasNext}
-            onClick={onNextClick}
-          />
-        </Col>
-      </ButtonRow>
-    </Row>
+      <ButtonWrap>
+        <Button
+          key="past"
+          type="primary"
+          icon={<DoubleLeftOutlined />}
+          disabled={!hasPrev}
+          onClick={onPrevClick}
+        />
+        <Button
+          key="future"
+          type="primary"
+          icon={<DoubleRightOutlined />}
+          disabled={!hasNext}
+          onClick={onNextClick}
+        />
+      </ButtonWrap>
+    </>
   )
 }
