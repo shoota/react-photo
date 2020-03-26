@@ -5,34 +5,29 @@
     "1984年、青森県うまれ。",
     "学生時代はカメラと遺伝生物学をこよなく愛していましたが、なぜかカメラメーカーのエンジニアとして社会にでました。東日本大震災をきっかけに地元での暮らしを願うようになり、青森へ転職＆移住、現在はフルリモートワーカーとして自宅でエンジニアをしています。",
     "結婚後の育児優先で閉鎖した写真サイトをもういちどやりたくなったので最近ぽつぽつと写真を撮り始めています。",
-    "３人の息子と1人の嫁さんと暮らしている。ねこがほしい。"
+    "３人の息子と1人の嫁さんと暮らしている。もういちどいぬを飼いたい。"
   ],
   "profileDetails": [
     {
-      "icon": "camera",
       "title": "使用している主なカメラ",
       "description": "Nikon FM10 / Nikon EM / Nikon D50 / OLYMPUS OM-D E-M10 Mark Ⅲ / NATURA CLASSICA"
     },
     {
-      "icon": "twitter",
       "title": "Twitter",
       "link": "https://twitter.com/shoota",
       "description": "技術と家族のことがほとんどです"
     },
     {
-      "icon": "facebook",
       "title": "Facebook",
       "link": "https://www.facebook.com/shuta.kumano",
       "description": "あまり更新してませんが..."
     },
     {
-      "icon": "github",
       "title": "Github",
       "link": "http://github.com/shoota",
       "description": "Webをメインにいろいろなものを書いています"
     },
     {
-      "icon": "code-sandbox",
       "title": "Code Sandobox",
       "link": "https://codesandbox.io/u/shoota",
       "description": "勉強が用の書き捨てコードやサンプルを置いています"
