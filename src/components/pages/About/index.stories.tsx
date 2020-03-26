@@ -40,7 +40,7 @@ const profileDetails = [
     icon: 'code-sandbox',
     title: 'Code Sandobox',
     link: 'https://codesandbox.io/u/shoota',
-    description: '勉強が用の書き捨てコードやサンプルを置いています',
+    description: '勉強用の書き捨てコードやサンプルを置いています',
   },
 ]
 

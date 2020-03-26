@@ -22,7 +22,6 @@ const ProfileTypography = styled(Typography)`
 `
 
 type ProfileDetail = {
-  icon: string
   title: string
   description: string
   link?: string
@@ -44,7 +43,7 @@ export const About: React.FC<Props> = ({
   return (
     <AboutCard>
       <Row justify="space-around" align="bottom">
-        <Col>
+        <Col style={{ textAlign: 'center' }}>
           <Avatar size={128} src={avatarUrl} />
           <Name>{name}</Name>
         </Col>
@@ -60,18 +59,9 @@ export const About: React.FC<Props> = ({
       <List
         itemLayout="horizontal"
         dataSource={profileDetails}
-        renderItem={({ icon, title, description, link }) => (
+        renderItem={({ title, description, link }) => (
           <List.Item>
             <List.Item.Meta
-              avatar={
-                link ? (
-                  <a href={link} target="_blank" rel="noopener noreferrer">
-                    <Avatar icon={icon} />
-                  </a>
-                ) : (
-                  <Avatar icon={icon} />
-                )
-              }
               title={
                 link ? (
                   <a href={link} target="_blank" rel="noopener noreferrer">
@@ -86,7 +76,6 @@ export const About: React.FC<Props> = ({
           </List.Item>
         )}
       />
-      ,
     </AboutCard>
   )
 }
