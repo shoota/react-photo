@@ -25,6 +25,7 @@ type Props = ComponentProps<typeof Header> & ComponentProps<typeof Footer>
 export const Layout: React.FC<Props> = ({
   children,
   title,
+  tabKey,
   onTitleClick,
   onMenuClick,
   onTwitterClick,
@@ -32,6 +33,7 @@ export const Layout: React.FC<Props> = ({
   return (
     <AntLayout style={{ minHeight: '100vh' }}>
       <Header
+        tabKey={tabKey}
         title={title}
         onTitleClick={onTitleClick}
         onMenuClick={onMenuClick}

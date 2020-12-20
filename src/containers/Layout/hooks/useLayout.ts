@@ -1,5 +1,5 @@
 import { ComponentProps, useCallback } from 'react'
-import { useHistory } from 'react-router'
+import { useHistory, useLocation } from 'react-router'
 
 import { Layout } from 'components/templates/Layout'
 import SiteConfig from 'data/site.json'
@@ -9,10 +9,11 @@ const TWITTER_URL = 'https://twitter.com/'
 
 export const useLayout = (): ComponentProps<typeof Layout> => {
   const history = useHistory()
-
+  const { pathname } = useLocation()
+  const currentKey = pathname === '/' ? '/days' : pathname
   const onMenuClick = useCallback(
     ({ key }) => {
-      history.push(`/${key}`)
+      history.push(key)
     },
     [history]
   )
@@ -28,6 +29,7 @@ export const useLayout = (): ComponentProps<typeof Layout> => {
   }, [])
 
   return {
+    tabKey: currentKey,
     title: SiteConfig.blogTitle,
     onMenuClick,
     onTitleClick,

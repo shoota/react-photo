@@ -28,12 +28,14 @@ type Props = {
   title: string
   onTitleClick: (event: React.MouseEvent<HTMLAnchorElement>) => void
   onMenuClick: ComponentProps<typeof Menu>['onClick']
+  tabKey: string
 }
 
 export const Header: React.FC<Props> = ({
   onTitleClick,
   onMenuClick,
   title,
+  tabKey,
 }) => {
   return (
     <StyledHeader>
@@ -44,12 +46,12 @@ export const Header: React.FC<Props> = ({
       </HeaderTitle>
       <StyledMenu
         mode="horizontal"
-        defaultSelectedKeys={['days']}
+        selectedKeys={[tabKey]}
         onClick={onMenuClick}
       >
-        <Menu.Item key="days">日々</Menu.Item>
-        <Menu.Item key="works">写真</Menu.Item>
-        <Menu.Item key="about">私について</Menu.Item>
+        <Menu.Item key="/days">日々</Menu.Item>
+        <Menu.Item key="/works">写真</Menu.Item>
+        <Menu.Item key="/about">私について</Menu.Item>
       </StyledMenu>
     </StyledHeader>
   )
