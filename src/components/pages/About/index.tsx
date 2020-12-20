@@ -50,7 +50,7 @@ export const About: React.FC<Props> = ({
         <Col span={16}>
           <ProfileTypography>
             {profileDescriptions.map(desc => (
-              <Paragraph key="">{desc}</Paragraph>
+              <Paragraph key={desc}>{desc}</Paragraph>
             ))}
           </ProfileTypography>
         </Col>
