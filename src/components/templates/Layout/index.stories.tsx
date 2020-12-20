@@ -9,6 +9,7 @@ export default { title: 'template/Layout' }
 export const StoryLayout: React.FC<{}> = ({ children }) => (
   <Layout
     title="日々是好日"
+    tabKey="/days"
     onTitleClick={event => {
       event.preventDefault()
       action('onTitleClick')(event)
