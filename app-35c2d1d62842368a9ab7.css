@@ -1718,6 +1718,7 @@ html {
 .ant-badge-dot {
   z-index: auto;
   width: 6px;
+  min-width: 6px;
   height: 6px;
   background: #ff4d4f;
   border-radius: 100%;
@@ -7474,9 +7475,6 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-empty-image svg {
   height: 100%;
   margin: auto;
-}
-.ant-empty-description {
-  margin: 0;
 }
 .ant-empty-footer {
   margin-top: 16px;
@@ -23242,6 +23240,10 @@ span.ant-transfer-list-search-action {
 .ant-tree .ant-tree-treenode-active .ant-tree-node-content-wrapper {
   background: #f5f5f5;
 }
+.ant-tree .ant-tree-treenode.filter-node .ant-tree-title {
+  color: #d4380d;
+  font-weight: 500;
+}
 .ant-tree-indent {
   align-self: stretch;
   white-space: nowrap;
@@ -23674,6 +23676,10 @@ span.ant-transfer-list-search-action {
 }
 .ant-select-tree .ant-select-tree-treenode-active .ant-select-tree-node-content-wrapper {
   background: #f5f5f5;
+}
+.ant-select-tree .ant-select-tree-treenode.filter-node .ant-select-tree-title {
+  color: #d4380d;
+  font-weight: 500;
 }
 .ant-select-tree-indent {
   align-self: stretch;
