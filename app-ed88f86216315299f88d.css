@@ -4441,6 +4441,10 @@ a.ant-btn-sm {
 .ant-card-actions > li:not(:last-child) {
   border-right: 1px solid #f0f0f0;
 }
+.ant-card-rtl .ant-card-actions > li:not(:last-child) {
+  border-right: none;
+  border-left: 1px solid #f0f0f0;
+}
 .ant-card-type-inner .ant-card-head {
   padding: 0 24px;
   background: #fafafa;
@@ -7029,7 +7033,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 }
 .ant-drawer-footer {
   flex-shrink: 0;
-  padding: 10px 10px;
+  padding: 10px 16px;
   border-top: 1px solid #f0f0f0;
 }
 .ant-drawer-mask {
@@ -15996,6 +16000,7 @@ textarea.ant-mentions {
 }
 .ant-menu-sub.ant-menu-inline {
   padding: 0;
+  background: #fafafa;
   border: 0;
   border-radius: 0;
   box-shadow: none;
@@ -18513,6 +18518,7 @@ span.ant-radio + * {
 }
 .ant-select-selection-overflow-item {
   flex: none;
+  align-self: center;
   max-width: 100%;
 }
 .ant-select-multiple .ant-select-selector {
@@ -23240,8 +23246,8 @@ span.ant-transfer-list-search-action {
 .ant-tree .ant-tree-treenode-active .ant-tree-node-content-wrapper {
   background: #f5f5f5;
 }
-.ant-tree .ant-tree-treenode.filter-node .ant-tree-title {
-  color: #d4380d;
+.ant-tree .ant-tree-treenode:not(.ant-tree .ant-tree-treenode-disabled).filter-node .ant-tree-title {
+  color: inherit;
   font-weight: 500;
 }
 .ant-tree-indent {
@@ -23677,8 +23683,8 @@ span.ant-transfer-list-search-action {
 .ant-select-tree .ant-select-tree-treenode-active .ant-select-tree-node-content-wrapper {
   background: #f5f5f5;
 }
-.ant-select-tree .ant-select-tree-treenode.filter-node .ant-select-tree-title {
-  color: #d4380d;
+.ant-select-tree .ant-select-tree-treenode:not(.ant-select-tree .ant-select-tree-treenode-disabled).filter-node .ant-select-tree-title {
+  color: inherit;
   font-weight: 500;
 }
 .ant-select-tree-indent {
