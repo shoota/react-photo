@@ -8429,9 +8429,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-24 {
   display: block;
   flex: 0 0 100%;
-  min-width: 0;
   max-width: 100%;
-  max-width: calc(100% - var(--column-gap));
 }
 .ant-col-push-24 {
   left: 100%;
@@ -8448,9 +8446,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-23 {
   display: block;
   flex: 0 0 95.83333333%;
-  min-width: 0;
   max-width: 95.83333333%;
-  max-width: calc(95.83333333% - var(--column-gap));
 }
 .ant-col-push-23 {
   left: 95.83333333%;
@@ -8467,9 +8463,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-22 {
   display: block;
   flex: 0 0 91.66666667%;
-  min-width: 0;
   max-width: 91.66666667%;
-  max-width: calc(91.66666667% - var(--column-gap));
 }
 .ant-col-push-22 {
   left: 91.66666667%;
@@ -8486,9 +8480,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-21 {
   display: block;
   flex: 0 0 87.5%;
-  min-width: 0;
   max-width: 87.5%;
-  max-width: calc(87.5% - var(--column-gap));
 }
 .ant-col-push-21 {
   left: 87.5%;
@@ -8505,9 +8497,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-20 {
   display: block;
   flex: 0 0 83.33333333%;
-  min-width: 0;
   max-width: 83.33333333%;
-  max-width: calc(83.33333333% - var(--column-gap));
 }
 .ant-col-push-20 {
   left: 83.33333333%;
@@ -8524,9 +8514,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-19 {
   display: block;
   flex: 0 0 79.16666667%;
-  min-width: 0;
   max-width: 79.16666667%;
-  max-width: calc(79.16666667% - var(--column-gap));
 }
 .ant-col-push-19 {
   left: 79.16666667%;
@@ -8543,9 +8531,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-18 {
   display: block;
   flex: 0 0 75%;
-  min-width: 0;
   max-width: 75%;
-  max-width: calc(75% - var(--column-gap));
 }
 .ant-col-push-18 {
   left: 75%;
@@ -8562,9 +8548,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-17 {
   display: block;
   flex: 0 0 70.83333333%;
-  min-width: 0;
   max-width: 70.83333333%;
-  max-width: calc(70.83333333% - var(--column-gap));
 }
 .ant-col-push-17 {
   left: 70.83333333%;
@@ -8581,9 +8565,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-16 {
   display: block;
   flex: 0 0 66.66666667%;
-  min-width: 0;
   max-width: 66.66666667%;
-  max-width: calc(66.66666667% - var(--column-gap));
 }
 .ant-col-push-16 {
   left: 66.66666667%;
@@ -8600,9 +8582,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-15 {
   display: block;
   flex: 0 0 62.5%;
-  min-width: 0;
   max-width: 62.5%;
-  max-width: calc(62.5% - var(--column-gap));
 }
 .ant-col-push-15 {
   left: 62.5%;
@@ -8619,9 +8599,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-14 {
   display: block;
   flex: 0 0 58.33333333%;
-  min-width: 0;
   max-width: 58.33333333%;
-  max-width: calc(58.33333333% - var(--column-gap));
 }
 .ant-col-push-14 {
   left: 58.33333333%;
@@ -8638,9 +8616,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-13 {
   display: block;
   flex: 0 0 54.16666667%;
-  min-width: 0;
   max-width: 54.16666667%;
-  max-width: calc(54.16666667% - var(--column-gap));
 }
 .ant-col-push-13 {
   left: 54.16666667%;
@@ -8657,9 +8633,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-12 {
   display: block;
   flex: 0 0 50%;
-  min-width: 0;
   max-width: 50%;
-  max-width: calc(50% - var(--column-gap));
 }
 .ant-col-push-12 {
   left: 50%;
@@ -8676,9 +8650,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-11 {
   display: block;
   flex: 0 0 45.83333333%;
-  min-width: 0;
   max-width: 45.83333333%;
-  max-width: calc(45.83333333% - var(--column-gap));
 }
 .ant-col-push-11 {
   left: 45.83333333%;
@@ -8695,9 +8667,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-10 {
   display: block;
   flex: 0 0 41.66666667%;
-  min-width: 0;
   max-width: 41.66666667%;
-  max-width: calc(41.66666667% - var(--column-gap));
 }
 .ant-col-push-10 {
   left: 41.66666667%;
@@ -8714,9 +8684,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-9 {
   display: block;
   flex: 0 0 37.5%;
-  min-width: 0;
   max-width: 37.5%;
-  max-width: calc(37.5% - var(--column-gap));
 }
 .ant-col-push-9 {
   left: 37.5%;
@@ -8733,9 +8701,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-8 {
   display: block;
   flex: 0 0 33.33333333%;
-  min-width: 0;
   max-width: 33.33333333%;
-  max-width: calc(33.33333333% - var(--column-gap));
 }
 .ant-col-push-8 {
   left: 33.33333333%;
@@ -8752,9 +8718,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-7 {
   display: block;
   flex: 0 0 29.16666667%;
-  min-width: 0;
   max-width: 29.16666667%;
-  max-width: calc(29.16666667% - var(--column-gap));
 }
 .ant-col-push-7 {
   left: 29.16666667%;
@@ -8771,9 +8735,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-6 {
   display: block;
   flex: 0 0 25%;
-  min-width: 0;
   max-width: 25%;
-  max-width: calc(25% - var(--column-gap));
 }
 .ant-col-push-6 {
   left: 25%;
@@ -8790,9 +8752,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-5 {
   display: block;
   flex: 0 0 20.83333333%;
-  min-width: 0;
   max-width: 20.83333333%;
-  max-width: calc(20.83333333% - var(--column-gap));
 }
 .ant-col-push-5 {
   left: 20.83333333%;
@@ -8809,9 +8769,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-4 {
   display: block;
   flex: 0 0 16.66666667%;
-  min-width: 0;
   max-width: 16.66666667%;
-  max-width: calc(16.66666667% - var(--column-gap));
 }
 .ant-col-push-4 {
   left: 16.66666667%;
@@ -8828,9 +8786,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-3 {
   display: block;
   flex: 0 0 12.5%;
-  min-width: 0;
   max-width: 12.5%;
-  max-width: calc(12.5% - var(--column-gap));
 }
 .ant-col-push-3 {
   left: 12.5%;
@@ -8847,9 +8803,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-2 {
   display: block;
   flex: 0 0 8.33333333%;
-  min-width: 0;
   max-width: 8.33333333%;
-  max-width: calc(8.33333333% - var(--column-gap));
 }
 .ant-col-push-2 {
   left: 8.33333333%;
@@ -8866,9 +8820,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-1 {
   display: block;
   flex: 0 0 4.16666667%;
-  min-width: 0;
   max-width: 4.16666667%;
-  max-width: calc(4.16666667% - var(--column-gap));
 }
 .ant-col-push-1 {
   left: 4.16666667%;
@@ -9209,9 +9161,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-24 {
   display: block;
   flex: 0 0 100%;
-  min-width: 0;
   max-width: 100%;
-  max-width: calc(100% - var(--column-gap));
 }
 .ant-col-xs-push-24 {
   left: 100%;
@@ -9228,9 +9178,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-23 {
   display: block;
   flex: 0 0 95.83333333%;
-  min-width: 0;
   max-width: 95.83333333%;
-  max-width: calc(95.83333333% - var(--column-gap));
 }
 .ant-col-xs-push-23 {
   left: 95.83333333%;
@@ -9247,9 +9195,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-22 {
   display: block;
   flex: 0 0 91.66666667%;
-  min-width: 0;
   max-width: 91.66666667%;
-  max-width: calc(91.66666667% - var(--column-gap));
 }
 .ant-col-xs-push-22 {
   left: 91.66666667%;
@@ -9266,9 +9212,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-21 {
   display: block;
   flex: 0 0 87.5%;
-  min-width: 0;
   max-width: 87.5%;
-  max-width: calc(87.5% - var(--column-gap));
 }
 .ant-col-xs-push-21 {
   left: 87.5%;
@@ -9285,9 +9229,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-20 {
   display: block;
   flex: 0 0 83.33333333%;
-  min-width: 0;
   max-width: 83.33333333%;
-  max-width: calc(83.33333333% - var(--column-gap));
 }
 .ant-col-xs-push-20 {
   left: 83.33333333%;
@@ -9304,9 +9246,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-19 {
   display: block;
   flex: 0 0 79.16666667%;
-  min-width: 0;
   max-width: 79.16666667%;
-  max-width: calc(79.16666667% - var(--column-gap));
 }
 .ant-col-xs-push-19 {
   left: 79.16666667%;
@@ -9323,9 +9263,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-18 {
   display: block;
   flex: 0 0 75%;
-  min-width: 0;
   max-width: 75%;
-  max-width: calc(75% - var(--column-gap));
 }
 .ant-col-xs-push-18 {
   left: 75%;
@@ -9342,9 +9280,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-17 {
   display: block;
   flex: 0 0 70.83333333%;
-  min-width: 0;
   max-width: 70.83333333%;
-  max-width: calc(70.83333333% - var(--column-gap));
 }
 .ant-col-xs-push-17 {
   left: 70.83333333%;
@@ -9361,9 +9297,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-16 {
   display: block;
   flex: 0 0 66.66666667%;
-  min-width: 0;
   max-width: 66.66666667%;
-  max-width: calc(66.66666667% - var(--column-gap));
 }
 .ant-col-xs-push-16 {
   left: 66.66666667%;
@@ -9380,9 +9314,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-15 {
   display: block;
   flex: 0 0 62.5%;
-  min-width: 0;
   max-width: 62.5%;
-  max-width: calc(62.5% - var(--column-gap));
 }
 .ant-col-xs-push-15 {
   left: 62.5%;
@@ -9399,9 +9331,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-14 {
   display: block;
   flex: 0 0 58.33333333%;
-  min-width: 0;
   max-width: 58.33333333%;
-  max-width: calc(58.33333333% - var(--column-gap));
 }
 .ant-col-xs-push-14 {
   left: 58.33333333%;
@@ -9418,9 +9348,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-13 {
   display: block;
   flex: 0 0 54.16666667%;
-  min-width: 0;
   max-width: 54.16666667%;
-  max-width: calc(54.16666667% - var(--column-gap));
 }
 .ant-col-xs-push-13 {
   left: 54.16666667%;
@@ -9437,9 +9365,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-12 {
   display: block;
   flex: 0 0 50%;
-  min-width: 0;
   max-width: 50%;
-  max-width: calc(50% - var(--column-gap));
 }
 .ant-col-xs-push-12 {
   left: 50%;
@@ -9456,9 +9382,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-11 {
   display: block;
   flex: 0 0 45.83333333%;
-  min-width: 0;
   max-width: 45.83333333%;
-  max-width: calc(45.83333333% - var(--column-gap));
 }
 .ant-col-xs-push-11 {
   left: 45.83333333%;
@@ -9475,9 +9399,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-10 {
   display: block;
   flex: 0 0 41.66666667%;
-  min-width: 0;
   max-width: 41.66666667%;
-  max-width: calc(41.66666667% - var(--column-gap));
 }
 .ant-col-xs-push-10 {
   left: 41.66666667%;
@@ -9494,9 +9416,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-9 {
   display: block;
   flex: 0 0 37.5%;
-  min-width: 0;
   max-width: 37.5%;
-  max-width: calc(37.5% - var(--column-gap));
 }
 .ant-col-xs-push-9 {
   left: 37.5%;
@@ -9513,9 +9433,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-8 {
   display: block;
   flex: 0 0 33.33333333%;
-  min-width: 0;
   max-width: 33.33333333%;
-  max-width: calc(33.33333333% - var(--column-gap));
 }
 .ant-col-xs-push-8 {
   left: 33.33333333%;
@@ -9532,9 +9450,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-7 {
   display: block;
   flex: 0 0 29.16666667%;
-  min-width: 0;
   max-width: 29.16666667%;
-  max-width: calc(29.16666667% - var(--column-gap));
 }
 .ant-col-xs-push-7 {
   left: 29.16666667%;
@@ -9551,9 +9467,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-6 {
   display: block;
   flex: 0 0 25%;
-  min-width: 0;
   max-width: 25%;
-  max-width: calc(25% - var(--column-gap));
 }
 .ant-col-xs-push-6 {
   left: 25%;
@@ -9570,9 +9484,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-5 {
   display: block;
   flex: 0 0 20.83333333%;
-  min-width: 0;
   max-width: 20.83333333%;
-  max-width: calc(20.83333333% - var(--column-gap));
 }
 .ant-col-xs-push-5 {
   left: 20.83333333%;
@@ -9589,9 +9501,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-4 {
   display: block;
   flex: 0 0 16.66666667%;
-  min-width: 0;
   max-width: 16.66666667%;
-  max-width: calc(16.66666667% - var(--column-gap));
 }
 .ant-col-xs-push-4 {
   left: 16.66666667%;
@@ -9608,9 +9518,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-3 {
   display: block;
   flex: 0 0 12.5%;
-  min-width: 0;
   max-width: 12.5%;
-  max-width: calc(12.5% - var(--column-gap));
 }
 .ant-col-xs-push-3 {
   left: 12.5%;
@@ -9627,9 +9535,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-2 {
   display: block;
   flex: 0 0 8.33333333%;
-  min-width: 0;
   max-width: 8.33333333%;
-  max-width: calc(8.33333333% - var(--column-gap));
 }
 .ant-col-xs-push-2 {
   left: 8.33333333%;
@@ -9646,9 +9552,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-col-xs-1 {
   display: block;
   flex: 0 0 4.16666667%;
-  min-width: 0;
   max-width: 4.16666667%;
-  max-width: calc(4.16666667% - var(--column-gap));
 }
 .ant-col-xs-push-1 {
   left: 4.16666667%;
@@ -9990,9 +9894,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-24 {
     display: block;
     flex: 0 0 100%;
-    min-width: 0;
     max-width: 100%;
-    max-width: calc(100% - var(--column-gap));
   }
   .ant-col-sm-push-24 {
     left: 100%;
@@ -10009,9 +9911,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-23 {
     display: block;
     flex: 0 0 95.83333333%;
-    min-width: 0;
     max-width: 95.83333333%;
-    max-width: calc(95.83333333% - var(--column-gap));
   }
   .ant-col-sm-push-23 {
     left: 95.83333333%;
@@ -10028,9 +9928,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-22 {
     display: block;
     flex: 0 0 91.66666667%;
-    min-width: 0;
     max-width: 91.66666667%;
-    max-width: calc(91.66666667% - var(--column-gap));
   }
   .ant-col-sm-push-22 {
     left: 91.66666667%;
@@ -10047,9 +9945,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-21 {
     display: block;
     flex: 0 0 87.5%;
-    min-width: 0;
     max-width: 87.5%;
-    max-width: calc(87.5% - var(--column-gap));
   }
   .ant-col-sm-push-21 {
     left: 87.5%;
@@ -10066,9 +9962,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-20 {
     display: block;
     flex: 0 0 83.33333333%;
-    min-width: 0;
     max-width: 83.33333333%;
-    max-width: calc(83.33333333% - var(--column-gap));
   }
   .ant-col-sm-push-20 {
     left: 83.33333333%;
@@ -10085,9 +9979,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-19 {
     display: block;
     flex: 0 0 79.16666667%;
-    min-width: 0;
     max-width: 79.16666667%;
-    max-width: calc(79.16666667% - var(--column-gap));
   }
   .ant-col-sm-push-19 {
     left: 79.16666667%;
@@ -10104,9 +9996,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-18 {
     display: block;
     flex: 0 0 75%;
-    min-width: 0;
     max-width: 75%;
-    max-width: calc(75% - var(--column-gap));
   }
   .ant-col-sm-push-18 {
     left: 75%;
@@ -10123,9 +10013,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-17 {
     display: block;
     flex: 0 0 70.83333333%;
-    min-width: 0;
     max-width: 70.83333333%;
-    max-width: calc(70.83333333% - var(--column-gap));
   }
   .ant-col-sm-push-17 {
     left: 70.83333333%;
@@ -10142,9 +10030,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-16 {
     display: block;
     flex: 0 0 66.66666667%;
-    min-width: 0;
     max-width: 66.66666667%;
-    max-width: calc(66.66666667% - var(--column-gap));
   }
   .ant-col-sm-push-16 {
     left: 66.66666667%;
@@ -10161,9 +10047,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-15 {
     display: block;
     flex: 0 0 62.5%;
-    min-width: 0;
     max-width: 62.5%;
-    max-width: calc(62.5% - var(--column-gap));
   }
   .ant-col-sm-push-15 {
     left: 62.5%;
@@ -10180,9 +10064,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-14 {
     display: block;
     flex: 0 0 58.33333333%;
-    min-width: 0;
     max-width: 58.33333333%;
-    max-width: calc(58.33333333% - var(--column-gap));
   }
   .ant-col-sm-push-14 {
     left: 58.33333333%;
@@ -10199,9 +10081,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-13 {
     display: block;
     flex: 0 0 54.16666667%;
-    min-width: 0;
     max-width: 54.16666667%;
-    max-width: calc(54.16666667% - var(--column-gap));
   }
   .ant-col-sm-push-13 {
     left: 54.16666667%;
@@ -10218,9 +10098,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-12 {
     display: block;
     flex: 0 0 50%;
-    min-width: 0;
     max-width: 50%;
-    max-width: calc(50% - var(--column-gap));
   }
   .ant-col-sm-push-12 {
     left: 50%;
@@ -10237,9 +10115,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-11 {
     display: block;
     flex: 0 0 45.83333333%;
-    min-width: 0;
     max-width: 45.83333333%;
-    max-width: calc(45.83333333% - var(--column-gap));
   }
   .ant-col-sm-push-11 {
     left: 45.83333333%;
@@ -10256,9 +10132,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-10 {
     display: block;
     flex: 0 0 41.66666667%;
-    min-width: 0;
     max-width: 41.66666667%;
-    max-width: calc(41.66666667% - var(--column-gap));
   }
   .ant-col-sm-push-10 {
     left: 41.66666667%;
@@ -10275,9 +10149,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-9 {
     display: block;
     flex: 0 0 37.5%;
-    min-width: 0;
     max-width: 37.5%;
-    max-width: calc(37.5% - var(--column-gap));
   }
   .ant-col-sm-push-9 {
     left: 37.5%;
@@ -10294,9 +10166,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-8 {
     display: block;
     flex: 0 0 33.33333333%;
-    min-width: 0;
     max-width: 33.33333333%;
-    max-width: calc(33.33333333% - var(--column-gap));
   }
   .ant-col-sm-push-8 {
     left: 33.33333333%;
@@ -10313,9 +10183,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-7 {
     display: block;
     flex: 0 0 29.16666667%;
-    min-width: 0;
     max-width: 29.16666667%;
-    max-width: calc(29.16666667% - var(--column-gap));
   }
   .ant-col-sm-push-7 {
     left: 29.16666667%;
@@ -10332,9 +10200,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-6 {
     display: block;
     flex: 0 0 25%;
-    min-width: 0;
     max-width: 25%;
-    max-width: calc(25% - var(--column-gap));
   }
   .ant-col-sm-push-6 {
     left: 25%;
@@ -10351,9 +10217,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-5 {
     display: block;
     flex: 0 0 20.83333333%;
-    min-width: 0;
     max-width: 20.83333333%;
-    max-width: calc(20.83333333% - var(--column-gap));
   }
   .ant-col-sm-push-5 {
     left: 20.83333333%;
@@ -10370,9 +10234,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-4 {
     display: block;
     flex: 0 0 16.66666667%;
-    min-width: 0;
     max-width: 16.66666667%;
-    max-width: calc(16.66666667% - var(--column-gap));
   }
   .ant-col-sm-push-4 {
     left: 16.66666667%;
@@ -10389,9 +10251,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-3 {
     display: block;
     flex: 0 0 12.5%;
-    min-width: 0;
     max-width: 12.5%;
-    max-width: calc(12.5% - var(--column-gap));
   }
   .ant-col-sm-push-3 {
     left: 12.5%;
@@ -10408,9 +10268,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-2 {
     display: block;
     flex: 0 0 8.33333333%;
-    min-width: 0;
     max-width: 8.33333333%;
-    max-width: calc(8.33333333% - var(--column-gap));
   }
   .ant-col-sm-push-2 {
     left: 8.33333333%;
@@ -10427,9 +10285,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-sm-1 {
     display: block;
     flex: 0 0 4.16666667%;
-    min-width: 0;
     max-width: 4.16666667%;
-    max-width: calc(4.16666667% - var(--column-gap));
   }
   .ant-col-sm-push-1 {
     left: 4.16666667%;
@@ -10772,9 +10628,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-24 {
     display: block;
     flex: 0 0 100%;
-    min-width: 0;
     max-width: 100%;
-    max-width: calc(100% - var(--column-gap));
   }
   .ant-col-md-push-24 {
     left: 100%;
@@ -10791,9 +10645,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-23 {
     display: block;
     flex: 0 0 95.83333333%;
-    min-width: 0;
     max-width: 95.83333333%;
-    max-width: calc(95.83333333% - var(--column-gap));
   }
   .ant-col-md-push-23 {
     left: 95.83333333%;
@@ -10810,9 +10662,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-22 {
     display: block;
     flex: 0 0 91.66666667%;
-    min-width: 0;
     max-width: 91.66666667%;
-    max-width: calc(91.66666667% - var(--column-gap));
   }
   .ant-col-md-push-22 {
     left: 91.66666667%;
@@ -10829,9 +10679,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-21 {
     display: block;
     flex: 0 0 87.5%;
-    min-width: 0;
     max-width: 87.5%;
-    max-width: calc(87.5% - var(--column-gap));
   }
   .ant-col-md-push-21 {
     left: 87.5%;
@@ -10848,9 +10696,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-20 {
     display: block;
     flex: 0 0 83.33333333%;
-    min-width: 0;
     max-width: 83.33333333%;
-    max-width: calc(83.33333333% - var(--column-gap));
   }
   .ant-col-md-push-20 {
     left: 83.33333333%;
@@ -10867,9 +10713,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-19 {
     display: block;
     flex: 0 0 79.16666667%;
-    min-width: 0;
     max-width: 79.16666667%;
-    max-width: calc(79.16666667% - var(--column-gap));
   }
   .ant-col-md-push-19 {
     left: 79.16666667%;
@@ -10886,9 +10730,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-18 {
     display: block;
     flex: 0 0 75%;
-    min-width: 0;
     max-width: 75%;
-    max-width: calc(75% - var(--column-gap));
   }
   .ant-col-md-push-18 {
     left: 75%;
@@ -10905,9 +10747,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-17 {
     display: block;
     flex: 0 0 70.83333333%;
-    min-width: 0;
     max-width: 70.83333333%;
-    max-width: calc(70.83333333% - var(--column-gap));
   }
   .ant-col-md-push-17 {
     left: 70.83333333%;
@@ -10924,9 +10764,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-16 {
     display: block;
     flex: 0 0 66.66666667%;
-    min-width: 0;
     max-width: 66.66666667%;
-    max-width: calc(66.66666667% - var(--column-gap));
   }
   .ant-col-md-push-16 {
     left: 66.66666667%;
@@ -10943,9 +10781,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-15 {
     display: block;
     flex: 0 0 62.5%;
-    min-width: 0;
     max-width: 62.5%;
-    max-width: calc(62.5% - var(--column-gap));
   }
   .ant-col-md-push-15 {
     left: 62.5%;
@@ -10962,9 +10798,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-14 {
     display: block;
     flex: 0 0 58.33333333%;
-    min-width: 0;
     max-width: 58.33333333%;
-    max-width: calc(58.33333333% - var(--column-gap));
   }
   .ant-col-md-push-14 {
     left: 58.33333333%;
@@ -10981,9 +10815,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-13 {
     display: block;
     flex: 0 0 54.16666667%;
-    min-width: 0;
     max-width: 54.16666667%;
-    max-width: calc(54.16666667% - var(--column-gap));
   }
   .ant-col-md-push-13 {
     left: 54.16666667%;
@@ -11000,9 +10832,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-12 {
     display: block;
     flex: 0 0 50%;
-    min-width: 0;
     max-width: 50%;
-    max-width: calc(50% - var(--column-gap));
   }
   .ant-col-md-push-12 {
     left: 50%;
@@ -11019,9 +10849,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-11 {
     display: block;
     flex: 0 0 45.83333333%;
-    min-width: 0;
     max-width: 45.83333333%;
-    max-width: calc(45.83333333% - var(--column-gap));
   }
   .ant-col-md-push-11 {
     left: 45.83333333%;
@@ -11038,9 +10866,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-10 {
     display: block;
     flex: 0 0 41.66666667%;
-    min-width: 0;
     max-width: 41.66666667%;
-    max-width: calc(41.66666667% - var(--column-gap));
   }
   .ant-col-md-push-10 {
     left: 41.66666667%;
@@ -11057,9 +10883,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-9 {
     display: block;
     flex: 0 0 37.5%;
-    min-width: 0;
     max-width: 37.5%;
-    max-width: calc(37.5% - var(--column-gap));
   }
   .ant-col-md-push-9 {
     left: 37.5%;
@@ -11076,9 +10900,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-8 {
     display: block;
     flex: 0 0 33.33333333%;
-    min-width: 0;
     max-width: 33.33333333%;
-    max-width: calc(33.33333333% - var(--column-gap));
   }
   .ant-col-md-push-8 {
     left: 33.33333333%;
@@ -11095,9 +10917,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-7 {
     display: block;
     flex: 0 0 29.16666667%;
-    min-width: 0;
     max-width: 29.16666667%;
-    max-width: calc(29.16666667% - var(--column-gap));
   }
   .ant-col-md-push-7 {
     left: 29.16666667%;
@@ -11114,9 +10934,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-6 {
     display: block;
     flex: 0 0 25%;
-    min-width: 0;
     max-width: 25%;
-    max-width: calc(25% - var(--column-gap));
   }
   .ant-col-md-push-6 {
     left: 25%;
@@ -11133,9 +10951,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-5 {
     display: block;
     flex: 0 0 20.83333333%;
-    min-width: 0;
     max-width: 20.83333333%;
-    max-width: calc(20.83333333% - var(--column-gap));
   }
   .ant-col-md-push-5 {
     left: 20.83333333%;
@@ -11152,9 +10968,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-4 {
     display: block;
     flex: 0 0 16.66666667%;
-    min-width: 0;
     max-width: 16.66666667%;
-    max-width: calc(16.66666667% - var(--column-gap));
   }
   .ant-col-md-push-4 {
     left: 16.66666667%;
@@ -11171,9 +10985,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-3 {
     display: block;
     flex: 0 0 12.5%;
-    min-width: 0;
     max-width: 12.5%;
-    max-width: calc(12.5% - var(--column-gap));
   }
   .ant-col-md-push-3 {
     left: 12.5%;
@@ -11190,9 +11002,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-2 {
     display: block;
     flex: 0 0 8.33333333%;
-    min-width: 0;
     max-width: 8.33333333%;
-    max-width: calc(8.33333333% - var(--column-gap));
   }
   .ant-col-md-push-2 {
     left: 8.33333333%;
@@ -11209,9 +11019,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-md-1 {
     display: block;
     flex: 0 0 4.16666667%;
-    min-width: 0;
     max-width: 4.16666667%;
-    max-width: calc(4.16666667% - var(--column-gap));
   }
   .ant-col-md-push-1 {
     left: 4.16666667%;
@@ -11554,9 +11362,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-24 {
     display: block;
     flex: 0 0 100%;
-    min-width: 0;
     max-width: 100%;
-    max-width: calc(100% - var(--column-gap));
   }
   .ant-col-lg-push-24 {
     left: 100%;
@@ -11573,9 +11379,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-23 {
     display: block;
     flex: 0 0 95.83333333%;
-    min-width: 0;
     max-width: 95.83333333%;
-    max-width: calc(95.83333333% - var(--column-gap));
   }
   .ant-col-lg-push-23 {
     left: 95.83333333%;
@@ -11592,9 +11396,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-22 {
     display: block;
     flex: 0 0 91.66666667%;
-    min-width: 0;
     max-width: 91.66666667%;
-    max-width: calc(91.66666667% - var(--column-gap));
   }
   .ant-col-lg-push-22 {
     left: 91.66666667%;
@@ -11611,9 +11413,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-21 {
     display: block;
     flex: 0 0 87.5%;
-    min-width: 0;
     max-width: 87.5%;
-    max-width: calc(87.5% - var(--column-gap));
   }
   .ant-col-lg-push-21 {
     left: 87.5%;
@@ -11630,9 +11430,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-20 {
     display: block;
     flex: 0 0 83.33333333%;
-    min-width: 0;
     max-width: 83.33333333%;
-    max-width: calc(83.33333333% - var(--column-gap));
   }
   .ant-col-lg-push-20 {
     left: 83.33333333%;
@@ -11649,9 +11447,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-19 {
     display: block;
     flex: 0 0 79.16666667%;
-    min-width: 0;
     max-width: 79.16666667%;
-    max-width: calc(79.16666667% - var(--column-gap));
   }
   .ant-col-lg-push-19 {
     left: 79.16666667%;
@@ -11668,9 +11464,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-18 {
     display: block;
     flex: 0 0 75%;
-    min-width: 0;
     max-width: 75%;
-    max-width: calc(75% - var(--column-gap));
   }
   .ant-col-lg-push-18 {
     left: 75%;
@@ -11687,9 +11481,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-17 {
     display: block;
     flex: 0 0 70.83333333%;
-    min-width: 0;
     max-width: 70.83333333%;
-    max-width: calc(70.83333333% - var(--column-gap));
   }
   .ant-col-lg-push-17 {
     left: 70.83333333%;
@@ -11706,9 +11498,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-16 {
     display: block;
     flex: 0 0 66.66666667%;
-    min-width: 0;
     max-width: 66.66666667%;
-    max-width: calc(66.66666667% - var(--column-gap));
   }
   .ant-col-lg-push-16 {
     left: 66.66666667%;
@@ -11725,9 +11515,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-15 {
     display: block;
     flex: 0 0 62.5%;
-    min-width: 0;
     max-width: 62.5%;
-    max-width: calc(62.5% - var(--column-gap));
   }
   .ant-col-lg-push-15 {
     left: 62.5%;
@@ -11744,9 +11532,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-14 {
     display: block;
     flex: 0 0 58.33333333%;
-    min-width: 0;
     max-width: 58.33333333%;
-    max-width: calc(58.33333333% - var(--column-gap));
   }
   .ant-col-lg-push-14 {
     left: 58.33333333%;
@@ -11763,9 +11549,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-13 {
     display: block;
     flex: 0 0 54.16666667%;
-    min-width: 0;
     max-width: 54.16666667%;
-    max-width: calc(54.16666667% - var(--column-gap));
   }
   .ant-col-lg-push-13 {
     left: 54.16666667%;
@@ -11782,9 +11566,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-12 {
     display: block;
     flex: 0 0 50%;
-    min-width: 0;
     max-width: 50%;
-    max-width: calc(50% - var(--column-gap));
   }
   .ant-col-lg-push-12 {
     left: 50%;
@@ -11801,9 +11583,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-11 {
     display: block;
     flex: 0 0 45.83333333%;
-    min-width: 0;
     max-width: 45.83333333%;
-    max-width: calc(45.83333333% - var(--column-gap));
   }
   .ant-col-lg-push-11 {
     left: 45.83333333%;
@@ -11820,9 +11600,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-10 {
     display: block;
     flex: 0 0 41.66666667%;
-    min-width: 0;
     max-width: 41.66666667%;
-    max-width: calc(41.66666667% - var(--column-gap));
   }
   .ant-col-lg-push-10 {
     left: 41.66666667%;
@@ -11839,9 +11617,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-9 {
     display: block;
     flex: 0 0 37.5%;
-    min-width: 0;
     max-width: 37.5%;
-    max-width: calc(37.5% - var(--column-gap));
   }
   .ant-col-lg-push-9 {
     left: 37.5%;
@@ -11858,9 +11634,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-8 {
     display: block;
     flex: 0 0 33.33333333%;
-    min-width: 0;
     max-width: 33.33333333%;
-    max-width: calc(33.33333333% - var(--column-gap));
   }
   .ant-col-lg-push-8 {
     left: 33.33333333%;
@@ -11877,9 +11651,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-7 {
     display: block;
     flex: 0 0 29.16666667%;
-    min-width: 0;
     max-width: 29.16666667%;
-    max-width: calc(29.16666667% - var(--column-gap));
   }
   .ant-col-lg-push-7 {
     left: 29.16666667%;
@@ -11896,9 +11668,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-6 {
     display: block;
     flex: 0 0 25%;
-    min-width: 0;
     max-width: 25%;
-    max-width: calc(25% - var(--column-gap));
   }
   .ant-col-lg-push-6 {
     left: 25%;
@@ -11915,9 +11685,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-5 {
     display: block;
     flex: 0 0 20.83333333%;
-    min-width: 0;
     max-width: 20.83333333%;
-    max-width: calc(20.83333333% - var(--column-gap));
   }
   .ant-col-lg-push-5 {
     left: 20.83333333%;
@@ -11934,9 +11702,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-4 {
     display: block;
     flex: 0 0 16.66666667%;
-    min-width: 0;
     max-width: 16.66666667%;
-    max-width: calc(16.66666667% - var(--column-gap));
   }
   .ant-col-lg-push-4 {
     left: 16.66666667%;
@@ -11953,9 +11719,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-3 {
     display: block;
     flex: 0 0 12.5%;
-    min-width: 0;
     max-width: 12.5%;
-    max-width: calc(12.5% - var(--column-gap));
   }
   .ant-col-lg-push-3 {
     left: 12.5%;
@@ -11972,9 +11736,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-2 {
     display: block;
     flex: 0 0 8.33333333%;
-    min-width: 0;
     max-width: 8.33333333%;
-    max-width: calc(8.33333333% - var(--column-gap));
   }
   .ant-col-lg-push-2 {
     left: 8.33333333%;
@@ -11991,9 +11753,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-lg-1 {
     display: block;
     flex: 0 0 4.16666667%;
-    min-width: 0;
     max-width: 4.16666667%;
-    max-width: calc(4.16666667% - var(--column-gap));
   }
   .ant-col-lg-push-1 {
     left: 4.16666667%;
@@ -12336,9 +12096,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-24 {
     display: block;
     flex: 0 0 100%;
-    min-width: 0;
     max-width: 100%;
-    max-width: calc(100% - var(--column-gap));
   }
   .ant-col-xl-push-24 {
     left: 100%;
@@ -12355,9 +12113,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-23 {
     display: block;
     flex: 0 0 95.83333333%;
-    min-width: 0;
     max-width: 95.83333333%;
-    max-width: calc(95.83333333% - var(--column-gap));
   }
   .ant-col-xl-push-23 {
     left: 95.83333333%;
@@ -12374,9 +12130,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-22 {
     display: block;
     flex: 0 0 91.66666667%;
-    min-width: 0;
     max-width: 91.66666667%;
-    max-width: calc(91.66666667% - var(--column-gap));
   }
   .ant-col-xl-push-22 {
     left: 91.66666667%;
@@ -12393,9 +12147,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-21 {
     display: block;
     flex: 0 0 87.5%;
-    min-width: 0;
     max-width: 87.5%;
-    max-width: calc(87.5% - var(--column-gap));
   }
   .ant-col-xl-push-21 {
     left: 87.5%;
@@ -12412,9 +12164,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-20 {
     display: block;
     flex: 0 0 83.33333333%;
-    min-width: 0;
     max-width: 83.33333333%;
-    max-width: calc(83.33333333% - var(--column-gap));
   }
   .ant-col-xl-push-20 {
     left: 83.33333333%;
@@ -12431,9 +12181,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-19 {
     display: block;
     flex: 0 0 79.16666667%;
-    min-width: 0;
     max-width: 79.16666667%;
-    max-width: calc(79.16666667% - var(--column-gap));
   }
   .ant-col-xl-push-19 {
     left: 79.16666667%;
@@ -12450,9 +12198,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-18 {
     display: block;
     flex: 0 0 75%;
-    min-width: 0;
     max-width: 75%;
-    max-width: calc(75% - var(--column-gap));
   }
   .ant-col-xl-push-18 {
     left: 75%;
@@ -12469,9 +12215,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-17 {
     display: block;
     flex: 0 0 70.83333333%;
-    min-width: 0;
     max-width: 70.83333333%;
-    max-width: calc(70.83333333% - var(--column-gap));
   }
   .ant-col-xl-push-17 {
     left: 70.83333333%;
@@ -12488,9 +12232,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-16 {
     display: block;
     flex: 0 0 66.66666667%;
-    min-width: 0;
     max-width: 66.66666667%;
-    max-width: calc(66.66666667% - var(--column-gap));
   }
   .ant-col-xl-push-16 {
     left: 66.66666667%;
@@ -12507,9 +12249,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-15 {
     display: block;
     flex: 0 0 62.5%;
-    min-width: 0;
     max-width: 62.5%;
-    max-width: calc(62.5% - var(--column-gap));
   }
   .ant-col-xl-push-15 {
     left: 62.5%;
@@ -12526,9 +12266,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-14 {
     display: block;
     flex: 0 0 58.33333333%;
-    min-width: 0;
     max-width: 58.33333333%;
-    max-width: calc(58.33333333% - var(--column-gap));
   }
   .ant-col-xl-push-14 {
     left: 58.33333333%;
@@ -12545,9 +12283,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-13 {
     display: block;
     flex: 0 0 54.16666667%;
-    min-width: 0;
     max-width: 54.16666667%;
-    max-width: calc(54.16666667% - var(--column-gap));
   }
   .ant-col-xl-push-13 {
     left: 54.16666667%;
@@ -12564,9 +12300,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-12 {
     display: block;
     flex: 0 0 50%;
-    min-width: 0;
     max-width: 50%;
-    max-width: calc(50% - var(--column-gap));
   }
   .ant-col-xl-push-12 {
     left: 50%;
@@ -12583,9 +12317,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-11 {
     display: block;
     flex: 0 0 45.83333333%;
-    min-width: 0;
     max-width: 45.83333333%;
-    max-width: calc(45.83333333% - var(--column-gap));
   }
   .ant-col-xl-push-11 {
     left: 45.83333333%;
@@ -12602,9 +12334,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-10 {
     display: block;
     flex: 0 0 41.66666667%;
-    min-width: 0;
     max-width: 41.66666667%;
-    max-width: calc(41.66666667% - var(--column-gap));
   }
   .ant-col-xl-push-10 {
     left: 41.66666667%;
@@ -12621,9 +12351,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-9 {
     display: block;
     flex: 0 0 37.5%;
-    min-width: 0;
     max-width: 37.5%;
-    max-width: calc(37.5% - var(--column-gap));
   }
   .ant-col-xl-push-9 {
     left: 37.5%;
@@ -12640,9 +12368,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-8 {
     display: block;
     flex: 0 0 33.33333333%;
-    min-width: 0;
     max-width: 33.33333333%;
-    max-width: calc(33.33333333% - var(--column-gap));
   }
   .ant-col-xl-push-8 {
     left: 33.33333333%;
@@ -12659,9 +12385,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-7 {
     display: block;
     flex: 0 0 29.16666667%;
-    min-width: 0;
     max-width: 29.16666667%;
-    max-width: calc(29.16666667% - var(--column-gap));
   }
   .ant-col-xl-push-7 {
     left: 29.16666667%;
@@ -12678,9 +12402,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-6 {
     display: block;
     flex: 0 0 25%;
-    min-width: 0;
     max-width: 25%;
-    max-width: calc(25% - var(--column-gap));
   }
   .ant-col-xl-push-6 {
     left: 25%;
@@ -12697,9 +12419,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-5 {
     display: block;
     flex: 0 0 20.83333333%;
-    min-width: 0;
     max-width: 20.83333333%;
-    max-width: calc(20.83333333% - var(--column-gap));
   }
   .ant-col-xl-push-5 {
     left: 20.83333333%;
@@ -12716,9 +12436,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-4 {
     display: block;
     flex: 0 0 16.66666667%;
-    min-width: 0;
     max-width: 16.66666667%;
-    max-width: calc(16.66666667% - var(--column-gap));
   }
   .ant-col-xl-push-4 {
     left: 16.66666667%;
@@ -12735,9 +12453,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-3 {
     display: block;
     flex: 0 0 12.5%;
-    min-width: 0;
     max-width: 12.5%;
-    max-width: calc(12.5% - var(--column-gap));
   }
   .ant-col-xl-push-3 {
     left: 12.5%;
@@ -12754,9 +12470,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-2 {
     display: block;
     flex: 0 0 8.33333333%;
-    min-width: 0;
     max-width: 8.33333333%;
-    max-width: calc(8.33333333% - var(--column-gap));
   }
   .ant-col-xl-push-2 {
     left: 8.33333333%;
@@ -12773,9 +12487,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xl-1 {
     display: block;
     flex: 0 0 4.16666667%;
-    min-width: 0;
     max-width: 4.16666667%;
-    max-width: calc(4.16666667% - var(--column-gap));
   }
   .ant-col-xl-push-1 {
     left: 4.16666667%;
@@ -13118,9 +12830,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-24 {
     display: block;
     flex: 0 0 100%;
-    min-width: 0;
     max-width: 100%;
-    max-width: calc(100% - var(--column-gap));
   }
   .ant-col-xxl-push-24 {
     left: 100%;
@@ -13137,9 +12847,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-23 {
     display: block;
     flex: 0 0 95.83333333%;
-    min-width: 0;
     max-width: 95.83333333%;
-    max-width: calc(95.83333333% - var(--column-gap));
   }
   .ant-col-xxl-push-23 {
     left: 95.83333333%;
@@ -13156,9 +12864,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-22 {
     display: block;
     flex: 0 0 91.66666667%;
-    min-width: 0;
     max-width: 91.66666667%;
-    max-width: calc(91.66666667% - var(--column-gap));
   }
   .ant-col-xxl-push-22 {
     left: 91.66666667%;
@@ -13175,9 +12881,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-21 {
     display: block;
     flex: 0 0 87.5%;
-    min-width: 0;
     max-width: 87.5%;
-    max-width: calc(87.5% - var(--column-gap));
   }
   .ant-col-xxl-push-21 {
     left: 87.5%;
@@ -13194,9 +12898,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-20 {
     display: block;
     flex: 0 0 83.33333333%;
-    min-width: 0;
     max-width: 83.33333333%;
-    max-width: calc(83.33333333% - var(--column-gap));
   }
   .ant-col-xxl-push-20 {
     left: 83.33333333%;
@@ -13213,9 +12915,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-19 {
     display: block;
     flex: 0 0 79.16666667%;
-    min-width: 0;
     max-width: 79.16666667%;
-    max-width: calc(79.16666667% - var(--column-gap));
   }
   .ant-col-xxl-push-19 {
     left: 79.16666667%;
@@ -13232,9 +12932,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-18 {
     display: block;
     flex: 0 0 75%;
-    min-width: 0;
     max-width: 75%;
-    max-width: calc(75% - var(--column-gap));
   }
   .ant-col-xxl-push-18 {
     left: 75%;
@@ -13251,9 +12949,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-17 {
     display: block;
     flex: 0 0 70.83333333%;
-    min-width: 0;
     max-width: 70.83333333%;
-    max-width: calc(70.83333333% - var(--column-gap));
   }
   .ant-col-xxl-push-17 {
     left: 70.83333333%;
@@ -13270,9 +12966,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-16 {
     display: block;
     flex: 0 0 66.66666667%;
-    min-width: 0;
     max-width: 66.66666667%;
-    max-width: calc(66.66666667% - var(--column-gap));
   }
   .ant-col-xxl-push-16 {
     left: 66.66666667%;
@@ -13289,9 +12983,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-15 {
     display: block;
     flex: 0 0 62.5%;
-    min-width: 0;
     max-width: 62.5%;
-    max-width: calc(62.5% - var(--column-gap));
   }
   .ant-col-xxl-push-15 {
     left: 62.5%;
@@ -13308,9 +13000,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-14 {
     display: block;
     flex: 0 0 58.33333333%;
-    min-width: 0;
     max-width: 58.33333333%;
-    max-width: calc(58.33333333% - var(--column-gap));
   }
   .ant-col-xxl-push-14 {
     left: 58.33333333%;
@@ -13327,9 +13017,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-13 {
     display: block;
     flex: 0 0 54.16666667%;
-    min-width: 0;
     max-width: 54.16666667%;
-    max-width: calc(54.16666667% - var(--column-gap));
   }
   .ant-col-xxl-push-13 {
     left: 54.16666667%;
@@ -13346,9 +13034,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-12 {
     display: block;
     flex: 0 0 50%;
-    min-width: 0;
     max-width: 50%;
-    max-width: calc(50% - var(--column-gap));
   }
   .ant-col-xxl-push-12 {
     left: 50%;
@@ -13365,9 +13051,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-11 {
     display: block;
     flex: 0 0 45.83333333%;
-    min-width: 0;
     max-width: 45.83333333%;
-    max-width: calc(45.83333333% - var(--column-gap));
   }
   .ant-col-xxl-push-11 {
     left: 45.83333333%;
@@ -13384,9 +13068,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-10 {
     display: block;
     flex: 0 0 41.66666667%;
-    min-width: 0;
     max-width: 41.66666667%;
-    max-width: calc(41.66666667% - var(--column-gap));
   }
   .ant-col-xxl-push-10 {
     left: 41.66666667%;
@@ -13403,9 +13085,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-9 {
     display: block;
     flex: 0 0 37.5%;
-    min-width: 0;
     max-width: 37.5%;
-    max-width: calc(37.5% - var(--column-gap));
   }
   .ant-col-xxl-push-9 {
     left: 37.5%;
@@ -13422,9 +13102,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-8 {
     display: block;
     flex: 0 0 33.33333333%;
-    min-width: 0;
     max-width: 33.33333333%;
-    max-width: calc(33.33333333% - var(--column-gap));
   }
   .ant-col-xxl-push-8 {
     left: 33.33333333%;
@@ -13441,9 +13119,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-7 {
     display: block;
     flex: 0 0 29.16666667%;
-    min-width: 0;
     max-width: 29.16666667%;
-    max-width: calc(29.16666667% - var(--column-gap));
   }
   .ant-col-xxl-push-7 {
     left: 29.16666667%;
@@ -13460,9 +13136,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-6 {
     display: block;
     flex: 0 0 25%;
-    min-width: 0;
     max-width: 25%;
-    max-width: calc(25% - var(--column-gap));
   }
   .ant-col-xxl-push-6 {
     left: 25%;
@@ -13479,9 +13153,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-5 {
     display: block;
     flex: 0 0 20.83333333%;
-    min-width: 0;
     max-width: 20.83333333%;
-    max-width: calc(20.83333333% - var(--column-gap));
   }
   .ant-col-xxl-push-5 {
     left: 20.83333333%;
@@ -13498,9 +13170,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-4 {
     display: block;
     flex: 0 0 16.66666667%;
-    min-width: 0;
     max-width: 16.66666667%;
-    max-width: calc(16.66666667% - var(--column-gap));
   }
   .ant-col-xxl-push-4 {
     left: 16.66666667%;
@@ -13517,9 +13187,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-3 {
     display: block;
     flex: 0 0 12.5%;
-    min-width: 0;
     max-width: 12.5%;
-    max-width: calc(12.5% - var(--column-gap));
   }
   .ant-col-xxl-push-3 {
     left: 12.5%;
@@ -13536,9 +13204,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-2 {
     display: block;
     flex: 0 0 8.33333333%;
-    min-width: 0;
     max-width: 8.33333333%;
-    max-width: calc(8.33333333% - var(--column-gap));
   }
   .ant-col-xxl-push-2 {
     left: 8.33333333%;
@@ -13555,9 +13221,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   .ant-col-xxl-1 {
     display: block;
     flex: 0 0 4.16666667%;
-    min-width: 0;
     max-width: 4.16666667%;
-    max-width: calc(4.16666667% - var(--column-gap));
   }
   .ant-col-xxl-push-1 {
     left: 4.16666667%;
@@ -21461,6 +21125,8 @@ table tr td.ant-table-selection-column .ant-radio-wrapper {
   border: 1px solid #f0f0f0;
   border-radius: 2px;
   outline: none;
+  transform: scale(0.94117647);
+  transform-origin: bottom;
   transition: all 0.3s;
   user-select: none;
 }
