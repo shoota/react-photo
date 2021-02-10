@@ -8232,9 +8232,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   padding-top: 0px;
 }
 .ant-form-item .ant-input-textarea-show-count::after {
-  position: absolute;
-  bottom: -22px;
-  width: 100%;
+  margin-bottom: -22px;
 }
 .show-help-enter,
 .show-help-appear {
@@ -14355,10 +14353,11 @@ textarea.ant-input {
   padding-bottom: 3px;
 }
 .ant-input-textarea-show-count::after {
-  display: block;
+  float: right;
   color: rgba(0, 0, 0, 0.45);
-  text-align: right;
+  white-space: nowrap;
   content: attr(data-count);
+  pointer-events: none;
 }
 .ant-input-search .ant-input:hover,
 .ant-input-search .ant-input:focus {
@@ -18760,6 +18759,9 @@ span.ant-radio + * {
   color: rgba(0, 0, 0, 0.25);
   background: #f5f5f5;
   cursor: not-allowed;
+}
+.ant-select-multiple.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background: #f5f5f5;
 }
 .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector input {
   cursor: not-allowed;
