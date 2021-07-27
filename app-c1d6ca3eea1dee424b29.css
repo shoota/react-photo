@@ -1710,6 +1710,9 @@ html {
   border-radius: 100%;
   box-shadow: 0 0 0 1px #fff;
 }
+.ant-badge-dot.ant-scroll-number {
+  transition: background 1.5s;
+}
 .ant-badge-count,
 .ant-badge-dot,
 .ant-badge .ant-scroll-number-custom-component {
@@ -13827,7 +13830,7 @@ textarea.ant-input-affix-wrapper {
   outline: none;
 }
 .ant-input-affix-wrapper > input.ant-input:focus {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 .ant-input-affix-wrapper::before {
   width: 0;
@@ -21601,8 +21604,15 @@ tr.ant-table-expanded-row .ant-descriptions-view table {
 .ant-tabs-rtl.ant-tabs-card.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
 .ant-tabs-rtl.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
 .ant-tabs-rtl.ant-tabs-card.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
-  margin-right: 0;
-  margin-left: 2px;
+  margin-right: 2px;
+  margin-left: 0;
+}
+.ant-tabs-rtl.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-nav-add,
+.ant-tabs-rtl.ant-tabs-card.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-nav-add,
+.ant-tabs-rtl.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-nav-add,
+.ant-tabs-rtl.ant-tabs-card.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-nav-add {
+  margin-right: 2px;
+  margin-left: 0;
 }
 .ant-tabs-dropdown-rtl {
   direction: rtl;
@@ -22020,6 +22030,7 @@ tr.ant-table-expanded-row .ant-descriptions-view table {
 .ant-tabs > .ant-tabs-nav .ant-tabs-nav-add,
 .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-add {
   min-width: 40px;
+  margin-left: 2px;
   padding: 0 8px;
   background: #fafafa;
   border: 1px solid #f0f0f0;
@@ -24130,6 +24141,7 @@ h5.ant-typography,
 a.ant-typography-ellipsis,
 span.ant-typography-ellipsis {
   display: inline-block;
+  max-width: 100%;
 }
 a.ant-typography,
 .ant-typography a {
