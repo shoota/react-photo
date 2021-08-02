@@ -5718,12 +5718,12 @@ a.ant-btn-sm {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-picker-input > input-borderless,
-.ant-picker-input > input-borderless:hover,
-.ant-picker-input > input-borderless:focus,
-.ant-picker-input > input-borderless-focused,
-.ant-picker-input > input-borderless-disabled,
-.ant-picker-input > input-borderless[disabled] {
+.ant-picker-input > input.ant-picker-input > input-borderless,
+.ant-picker-input > input.ant-picker-input > input-borderless:hover,
+.ant-picker-input > input.ant-picker-input > input-borderless:focus,
+.ant-picker-input > input.ant-picker-input > input-borderless-focused,
+.ant-picker-input > input.ant-picker-input > input-borderless-disabled,
+.ant-picker-input > input.ant-picker-input > input-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -13777,12 +13777,12 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-input-affix-wrapper-borderless,
-.ant-input-affix-wrapper-borderless:hover,
-.ant-input-affix-wrapper-borderless:focus,
-.ant-input-affix-wrapper-borderless-focused,
-.ant-input-affix-wrapper-borderless-disabled,
-.ant-input-affix-wrapper-borderless[disabled] {
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless,
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless:hover,
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless:focus,
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless-focused,
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless-disabled,
+.ant-input-affix-wrapper.ant-input-affix-wrapper-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -13949,12 +13949,12 @@ textarea.ant-input-affix-wrapper {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-input-borderless,
-.ant-input-borderless:hover,
-.ant-input-borderless:focus,
-.ant-input-borderless-focused,
-.ant-input-borderless-disabled,
-.ant-input-borderless[disabled] {
+.ant-input.ant-input-borderless,
+.ant-input.ant-input-borderless:hover,
+.ant-input.ant-input-borderless:focus,
+.ant-input.ant-input-borderless-focused,
+.ant-input.ant-input-borderless-disabled,
+.ant-input.ant-input-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -14504,12 +14504,12 @@ textarea.ant-input {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-input-number-borderless,
-.ant-input-number-borderless:hover,
-.ant-input-number-borderless:focus,
-.ant-input-number-borderless-focused,
-.ant-input-number-borderless-disabled,
-.ant-input-number-borderless[disabled] {
+.ant-input-number.ant-input-number-borderless,
+.ant-input-number.ant-input-number-borderless:hover,
+.ant-input-number.ant-input-number-borderless:focus,
+.ant-input-number.ant-input-number-borderless-focused,
+.ant-input-number.ant-input-number-borderless-disabled,
+.ant-input-number.ant-input-number-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -15265,12 +15265,12 @@ textarea.ant-input-number {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions-borderless,
-.ant-mentions-borderless:hover,
-.ant-mentions-borderless:focus,
-.ant-mentions-borderless-focused,
-.ant-mentions-borderless-disabled,
-.ant-mentions-borderless[disabled] {
+.ant-mentions.ant-mentions-borderless,
+.ant-mentions.ant-mentions-borderless:hover,
+.ant-mentions.ant-mentions-borderless:focus,
+.ant-mentions.ant-mentions-borderless-focused,
+.ant-mentions.ant-mentions-borderless-disabled,
+.ant-mentions.ant-mentions-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -17337,12 +17337,12 @@ textarea.ant-mentions {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-pagination-options-quick-jumper input-borderless,
-.ant-pagination-options-quick-jumper input-borderless:hover,
-.ant-pagination-options-quick-jumper input-borderless:focus,
-.ant-pagination-options-quick-jumper input-borderless-focused,
-.ant-pagination-options-quick-jumper input-borderless-disabled,
-.ant-pagination-options-quick-jumper input-borderless[disabled] {
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless,
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless:hover,
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless:focus,
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless-focused,
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless-disabled,
+.ant-pagination-options-quick-jumper input.ant-pagination-options-quick-jumper input-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
